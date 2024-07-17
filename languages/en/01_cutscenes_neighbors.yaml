@@ -138,7 +138,7 @@ message_28:
 message_29:
       faceset: MainCharacters_DreamWorld
       faceindex: 1
-      text: janKELI, o lukin!\! ni li \c[13]IJO MUSI PI LEN SOWELI\c[0] mi!\aub
+      text: jan KELI, o lukin!\! ni li \c[13]IJO MUSI PI LEN SOWELI\c[0] mi!\aub
 
 #KEL looks at AUBREY and jumps.
 
@@ -155,7 +155,7 @@ message_31:
 message_32:
       faceset: MainCharacters_DreamWorld
       faceindex: 39
-      text: sina wile e ni, janKELI o.\!<br>ona li wile ike ala e jan ante.\her
+      text: sina wile e ni, jan KELI o.\!<br>ona li wile ike ala e jan ante.\her
 
 #KEL looks at HERO.
 
@@ -283,7 +283,7 @@ message_61:
 message_62:
       faceset: MainCharacters_DreamWorld
       faceindex: 8
-      text: janKELI o pali nasa ala. o pona e mi.\aub
+      text: jan KELI o pali nasa ala. o pona e mi.\aub
 
 message_63:
       faceset: MainCharacters_DreamWorld
@@ -323,7 +323,7 @@ message_87:
 message_88:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: \{janKELI li pali ike e mi!!\aub
+      text: \{jan KELI li pali ike e mi!!\aub
 
 message_89:
       faceset: MainCharacter_Mari
@@ -338,7 +338,7 @@ message_90:
 message_91:
       faceset: MainCharacter_Mari
       faceindex: 2
-      text: lon, janKELI!\! sina toki pi lon mute.\! <br>tenpo ni la mi sona ala e jan pi toki lon\mar
+      text: lon, jan KELI!\! sina toki pi lon mute.\! <br>tenpo ni la mi sona ala e jan pi toki lon\mar
 
 message_92:
       faceset: MainCharacters_DreamWorld
@@ -412,7 +412,7 @@ message_104:
 message_105:
       faceset: MainCharacter_Basil
       faceindex: 2
-      text: mi pilin ike, janKELI. jan li sona ala la mi sitelen e ona.\bas
+      text: mi pilin ike, jan KELI. jan li sona ala la mi sitelen e ona.\bas
 
 message_106:
       faceset: MainCharacters_DreamWorld

@@ -77,16 +77,16 @@ Window_BattleLog.prototype.makeCustomActionText = function(subject, target, item
   // Type case
 //OMORI//
 if (hpDam != 0) {
-  var hpDamageText = target.name() + ' takes ' + hpDam + ' damage!';
+  var hpDamageText = 'ijo ' + target.name() + ' li jo e pakala ' + hpDam + '!';
   if (strongHit) {
-    hpDamageText = '...It was a moving attack!\r\n' + hpDamageText;
+    hpDamageText = '...ona li utala suli!\r\n' + hpDamageText;
   } else if (weakHit) {
-    hpDamageText = '...It was a dull attack.\r\n' + hpDamageText;
+    hpDamageText = '...ona li utala lili.\r\n' + hpDamageText;
   }
 } else if (result.isHit() === true) {
-  var hpDamageText = user.name() + "'s attack did nothing.";
+  var hpDamageText = 'ijo ' + user.name() + " li utala ala";
 } else {
-  var hpDamageText = user.name() + "'s attack whiffed!";
+  var hpDamageText = 'ijo ' + user.name() + "'s attack whiffed!";
 }
 
 if (critical) {
@@ -106,12 +106,12 @@ if (mpDam > 0) {
     break;
 
   case 'ATTACK': // ATTACK
-    text = user.name() + ' attacks ' + target.name() + '!\r\n';
+    text = 'jan ' + user.name() + ' li utala e ' + target.name() + '!\r\n';
     text += hpDamageText;
     break;
 
   case 'MULTIHIT':
-    text = user.name() + "does moving damage!\r\n";
+    text = 'jan' + user.name() + " li utala mute!\r\n";
     break;
 
   case 'OBSERVE': // OBSERVE
@@ -133,11 +133,11 @@ if (mpDam > 0) {
     break;
 
   case 'SAD POEM':  // SAD POEM
-    text = user.name() + ' reads a sad poem.\r\n';
+    text = user.name() + ' li toki e sitelen ike.\r\n';
     if(!target._noEffectMessage) {
-      if(target.isStateAffected(12)) {text += target.name() + ' feels MISERABLE...';}
-      else if(target.isStateAffected(11)) {text += target.name() + ' feels DEPRESSED..';}
-      else if(target.isStateAffected(10)) {text += target.name() + ' feels SAD.';}
+      if(target.isStateAffected(12)) {text += target.name() + ' li pilin ANPA...';}
+      else if(target.isStateAffected(11)) {text += target.name() + ' li pilin PAKALA..';}
+      else if(target.isStateAffected(10)) {text += target.name() + ' li pilin IKE.';}
     }
     else {text += parseNoEffectEmotion(target.name(), "SADDER!")}
     break;
@@ -534,7 +534,7 @@ if (mpDam > 0) {
 
     case 'PASS OMORI':  // KEL PASS OMORI
       text = 'OMORI wasn\'t looking and gets bopped!\r\n';
-      text += 'OMORI takes 1 damage!';
+      text += 'jan OMOLI li pakala wan!';
       break;
 
     case 'PASS OMORI 2': //KEL PASS OMORI 2
@@ -781,15 +781,15 @@ if (mpDam > 0) {
       break;
 
     case 'SPROUT NOTHING':  // SPROUT NOTHING
-      text = user.name() + ' is rolling around.';
+      text = user.name() + ' li tawa anpa sike.';
       break;
 
     case 'RUN AROUND':  // RUN AROUND
-      text = user.name() + ' runs around!';
+      text = user.name() + ' li tawa suli sike!';
       break;
 
     case 'HAPPY RUN AROUND': //HAPPY RUN AROUND
-      text = user.name() + ' runs around energetically!';
+      text = user.name() + ' li tawa kepeken pilin wawa!';
        break;
 
     //MOON BUNNY//
@@ -1171,7 +1171,7 @@ if (mpDam > 0) {
     case 'MUFFLED SCREAMS': //MUFFLED SCREAMS
       text = user.name() + ' starts screaming!\r\n';
       if(!target._noEffectMessage && target.name() !== "OMORI") {
-        text += target.name() + ' feels AFRAID.';
+        text += 'jan ' + target.name() + ' li pilin MONSUTA.';
       }
       else {text += parseNoEffectEmotion(target.name(), "AFRAID")}
       break;
@@ -1815,9 +1815,9 @@ if (mpDam > 0) {
     case 'MERCI MELODY': //MERCI LAUGH
       text = user.name() + ' sings a song.\r\n';
       text += target.name() + ' hears a familiar melody.\r\n';
-      if(target.isStateAffected(6)) {text += target.name() + " feels HAPPY!\r\n"}
-      else if(target.isStateAffected(7)) {text += target.name() + " feels ECSTATIC!!\r\n"}
-      else if(target.isStateAffected(8)) {text += target.name() + " feels MANIC!!!\r\n"}
+      if(target.isStateAffected(6)) {text += target.name() + " pilin PONA!\r\n"}
+      else if(target.isStateAffected(7)) {text += target.name() + " pilin WAWA!!\r\n"}
+      else if(target.isStateAffected(8)) {text += target.name() + " pilin NASA!!!\r\n"}
       break;
 
     case 'MERCI SCREAM': //MERCI SCREAM
@@ -3342,7 +3342,7 @@ if (mpDam > 0) {
         break;
 
       case 'ANGRY':
-        if(!target._noEffectMessage){text = target.name() + ' feels ANGRY!';}
+        if(!target._noEffectMessage){text = target.name() + ' li pilin IKE!';}
         else {text = parseNoEffectEmotion(target.name(), "ANGRIER!")}
         break;
 
@@ -3374,7 +3374,7 @@ if (mpDam > 0) {
       if(target.index() <= unitLowestIndex) {text = user.name() + ' uses an AIRHORN!\r\n';}
       if(target.isStateAffected(16)) {text += target.name() + ' feels FURIOUS!!!\r\n'}
       else if(target.isStateAffected(15)) {text += target.name() + ' feels ENRAGED!!\r\n'}
-      else if(target.isStateAffected(14)) {text += target.name() + ' feels ANGRY!\r\n'}
+      else if(target.isStateAffected(14)) {text += target.name() + ' li pilin SELI!\r\n'}
       break;
 
   }

@@ -42,7 +42,7 @@ message_7:
       text: \ber\com[2]o weka ala!\! sina wile weka!?\!<br>sina tu li jo e ike seme?\! ni li sinpin mi ala mi?\!<br>sijelo wawa mi?
 
 message_8:
-      text: \bermi sama ike ala e ijo POS\! pona mute mute la mi weka pi tenpo ale e ona. tenpo weka la ona li pali ike....
+      text: \bermi sama ike ala e ijo POSI\! pona mute mute la mi weka pi tenpo ale e ona. tenpo weka la ona li pali ike....
 
 # BERLY looks around.
 
@@ -255,13 +255,13 @@ message_51:
       text: \n<NOSE>\}ijo Nose li... tawa...
 
 message_52:
-      text: \n<BUN>aa... tenpo lili la mi ken pilin seli tan sina\!<br>mi mute o musi!
+      text: \n<BUN>aa... tenpo lili la mi ken pilin seli tan sina.\!<br>mi mute o musi!
 
 message_53:
       text: \n<HAPI>\sinv[1]boliga! ni li mi. mi ijo HAPI!
 
 message_54:
-      text: \n<HAPI>sina alasa e mi la, mi wile pali ante
+      text: \n<HAPI>sina alasa e mi la, mi wile pali ante.
 
 message_55:
       text: \n<HAPI>a, mi sona! mi o toki e nimi lili ale!
@@ -276,31 +276,31 @@ message_58:
       text: \n<BANGS>tenpo ni la ijo HAPI li toki seme?
 
 message_59:
-      text: \n<BANGS>She'd say something like...<br>"BANGS, you should always try your best at everything!\!<br>How else will people see how awesome you are?"
-      #ona li
+      text: \n<BANGS>ona li toki e<br>「jan BANKI o, tenpo ale la sina pali pi pona ale sina!\!<br>seme la jan ante li lukin e wawa sina?」"
+      #ona li toki e 「jan BANKI o, tenpo ale la sina pali pi pona ale sina! seme la jan ante li lukin e wawa sina?
 message_60:
-      text: \n<BANGS>...\! Next time, I guess.
+      text: \n<BANGS>...\! tenpo kama la, mi pali.
 
 message_61:
-      text: \n<BROWS>\SINV[2]\Com[2]AAAHHH\{HHHHHHHH\{HHHHHHH!!!\LECLEAR
+      text: \n<BROWS>\SINV[2]\Com[2]AAAAAA\{AAAAAAAA\{AAAAAAA!!!\LECLEAR
 
 # MIKAL
 
 message_62:
-      text: \n<MIKALI>\Com[2]Huh!? Where am I?
+      text: \n<MIKALI>\Com[2]seme!? mi lon seme?
 
 message_63:
-      text: \n<MIKALI>Sigh...\! I was dreaming that I was on a private beach with servants fanning me with palm tree leaves on every side...\! when suddenly...
+      text: \n<MIKALI>kon...\! tenpo weka la mi sitelen insa e ma pi selo telo. mi lon ma ni. mi jo e jan mute li tawa e kon tawa mi kepeken lipu kasi...\! tenpo kama...
+      #tenpo weka la mi sitelen insa e ma pi selo telo. mi lon ma ni. mi jo e jan mute li tawa e kon tawa mi kepeken lipu kasi. tenpo kama...
 
 message_64:
-      text: \n<MIKALI>\Com[2]Wham!\! And now here I am!
+      text: \n<MIKALI>\Com[2]Wama!\! tenpo ni la mi lon ma ni!
 
 message_65:
-      text: \n<MIKALI>I must have fallen asleep while hiding...\! I guess that's game over for me.
+      text: \n<MIKALI>tenpo mi lape la, mi o lape....\! musi mi li pini.
 
 message_66:
-      text: \n<TANA>Turns out...\! There's not many places to hide here for a guy my size...\! but this was still fun!\! As long as BERLY is happy, I'm happy.
-
+      text: \n<TANA>...\! tomo mute ala la mi ken len...\! taso, tenpo weka la ni li pilin musi!\! jan BELI li pilin pona la, mi pilin pona.
 # -----------------------------------------------------------------------------------------------------------------------------
 
 # After being found, the character will take their place back in BERLY's line-up in the FOUND PEOPLE ZONE.
@@ -311,27 +311,28 @@ message_177:
       text: \n<SALENI>...
 
 message_67:
-      text: \n<NOSE and BUN>\sinv[1]Patty-cake! Patty-cake! Baker's man!\sinv[0]
+      text: \n<NOSE and PUNI>\sinv[1]Pati-Kaki! Pati-Kaki! jan lili pi jan pali pan!\sinv[0]
+            #lanpan-pan, lanpan-pan?
 
 message_68:
-      text: \n<NOSE and BUN>\sinv[1]Bake me a cake as fast as you can!
+      text: \n<NOSE and PUNI>\sinv[1]o pali e pan suwi kepeken tenpo lili!
 
 message_69:
-      text: \n<HAPI>Q... R... S... T... U... H... I... J...\! Umm...
+      text: \n<HAPI>l... m... n... o... p... s... t... u...\! Umm...
 
 # \n<BANGS>(upside down)
 
 message_70:
-      text: \n<BANGS>The ground feels nice here.
+      text: \n<BANGS>supa ni li pilin pona.
 
 message_71:
-      text: \n<BROWS>\SINV[2]\Com[2]AAAHHH\{HHHHHHHH\{HHHHHHH!!!\LECLEAR
+      text: \n<BROWS>\SINV[2]\Com[2]AAAAAA\{AAAAAAA\{AAAAAAA!!!\LECLEAR
 
 message_72:
-      text: \n<MIKAL>\sinv[1]Zzzzzzzzzzzzzzzz...
+      text: \n<MIKAL>\sinv[1]ssssssssssssssss...
 
 message_73:
-      text: \n<VAN>As long as BERLY is happy, I'm happy.
+      text: \n<VAN>jan BELI pilin pona la, mi pilin pona.
 
 # -----------------------------------------------------------------------------------------------------------------------------
 
@@ -340,42 +341,44 @@ message_73:
 message_74:
       faceset: MainCharacter_Mari
       faceindex: 0
-      text: \marHi, OMORI!\! I see everyone decided to stay a bit to play hide-and-seek!
+      text: \martoki, jan OMOLI o!\! mi sona e jan ale li wile musi e musi
+      #toki, jan OMOLI o!\! mi sona e jan ale li wile musi e musi
 
 message_75:
       faceset: MainCharacter_Mari
       faceindex: 3
-      text: \marIf you're having a hard time, I can lend you a hand.\!<br>Big sister is always here for you! Hehe...
+      text: \marsina ken lukin ala e ona la, mi ken pali.\!<br>jan meli sama suli la mi la mi lon ma sina! e e...
+      #sina ken lukin ala e ona la, mi ken pali.\!<br>jan meli sama suli la mi la mi lon ma sina! e e...
 
 message_76:
       faceset: MainCharacter_Mari
       faceindex: 1
-      text: \marSo...\! Would you like some help?
+      text: \marlon...\! sina wile ala wile pali tan mi?
 
 # [YES/NO]
 
 message_77:
       faceset: MainCharacter_Mari
       faceindex: 2
-      text: \marFrom what I can see...<br>There's still \v[1001] friends left to find!
+      text: \marmi lukin la...<br>jan pona \v[1001] li len!
 
 message_78:
       faceset: MainCharacter_Mari
       faceindex: 3
-      text: \marYou can do this, OMORI!\! I'm rooting for you!
+      text: \marsina ken pali e ni, jan OMOLI o!\! mi wile sina sewi!
 
 # -----------------------------------------------------------------------------------------------------------------------------
 
 # When walking down to roadblocks:
 
 message_79:
-      text: \n<NEB>Pst... pst... pst...
+      text: \n<NEBa>Pss... pss... pss...
 
 message_80:
-      text: \n<DAISY>Hehe... pst... pst... pst...
+      text: \n<DASI>e e... pss... pss... pss...
 
 message_81:
-      text: \n<SHARLEEN>\}...\! Ah...
+      text: \n<SHARLEEN>\}...\! Aa...
 
 # You feel like you're interrupting something important.
 # *OMORI takes a step back*
@@ -389,225 +392,228 @@ message_81:
 # \ber(Only appears after finding everyone else)
 
 message_82:
-      text: There's a straw in the ground.\! Pull it out?
+      text: palisa pi moku telo li lon supa.\! o jo e ni?
 
 message_83:
-      text: \ber\quake[1]PWW\{\Com[2]WWWAH\{\Com[2]HH\{HH!!
+      text: \ber\quake[1]PWW\{\Com[2]WWWAA\{\Com[2]AA\{AA!!
 
 message_84:
-      text: \berTook you guys long enough...\!<br>I thought I was gonna suffocate in there!
+      text: \bersina alasa kepeken tenpo mute e ni...\!<br>tenpo weka la mi moli tan kon ala!
 
 message_85:
-      text: \berHow'd you like my hiding spot?\! Pretty good, eh?
+      text: \bersina pilin pona ala pona tan len mi?\! ni li pona mute ala mute?
 
 message_86:
       text: \berIt looks like you pretty much found everyone else too!\!<br>Unexpected...\! but I like it!
-
+            #sina alasa e jan ale ante, kin!\!<br>wawa...\! mi pilin pona tan ni!
 message_87:
-      text: \berLet's do a final roll call!
+      text: \bero kama! mi o lukin e lipu pi jan lon ma ni!
+            #o kama! mi o lukin e lipu pi jan lon ma ni
 
 # *Black screen to move everyone into position*
 
 # *BERLY whistles*
 
 message_88:
-      text: \berSHARLEEN!
+      text: \berijo SALEN!
 
 message_89:
-      text: \n<SHARLEEN>\}H-Here...
+      text: \n<ijo SALEN>\}mi-mi lon...
 
 message_90:
-      text: \berVAN!
+      text: \berijo TAN!
 
 message_91:
-      text: \n<VAN>Here as always, buddy.
+      text: \n<ijo TAN>jan pona o. tenpo ale la mi lon ma ni.
 
 message_92:
-      text: \berMIKAL!
+      text: \berijo MIKAL!
 
 message_93:
-      text: \n<MIKAL>\sinv[1]Zzzzzzzzzzzzzzzz...
+      text: \n<ijo MIKAL>\sinv[1]kalama lape...
 
 # *BERLY punches MIKAL*
 
 message_94:
-      text: \n<MIKAL>Ow! What gives!?
+      text: \n<ijo MIKAL>ike! seme a!?
 
 message_95:
-      text: \berHAPI!
+      text: \berijo HAPI!
 
 message_96:
-      text: \n<HAPI>Here, here!
+      text: \n<ijo HAPI>mi lon! mi lon!
 
 message_97:
-      text: \berBROWS!
+      text: \berijo POSA!
 
 message_98:
-      text: \n<BROWS>\{\SINV[2]\Com[2]AAAHHH\{HHHHHHHH\{HHHHHHH!!!\LECLEAR
+      text: \n<ijo POSA>\{\SINV[2]\Com[2]AAAAAA\{AAAAAAAA\{AAAAAAA!!!\LECLEAR
 
 message_99:
-      text: \berBANGS!
+      text: \berijo BANGS!
 
 message_100:
-      text: \n<BANGS>Here...
+      text: \n<ijo BANGS>mi lon...
 
 message_101:
-      text: \berBUN!
+      text: \berjio PUNO!
 
 message_102:
-      text: \n<BUN>BUN is here!
+      text: \n<ijo PUN>ijo PUN li lon!
 
 message_103:
-      text: \berNOSE!
+      text: \berijo NOSE!
 
 message_104:
-      text: \n<NOSE>Nose goes!
+      text: \n<NOSE>Nose li tawa!
 
 message_105:
-      text: \berHERO!
+      text: \berjan WAWA!
 
 message_106:
       faceset: MainCharacters_DreamWorld
       faceindex: 49
-      text: \herPresent!
+      text: \hermi lon a!
 
 message_107:
-      text: \berKEL!
+      text: \berjan KELI!
 
 message_108:
       faceset: MainCharacters_DreamWorld
       faceindex: 24
-      text: \kelYawn...\! You really gotta do this every time, BERLY?
+      text: \kelkon...\! tepno ale seme la sina wile pali e ni, jan BELI o?
 
 # *BERLY hits KEL*
 
 message_109:
       faceset: MainCharacters_DreamWorld
       faceindex: 30
-      text: \kelHey! That was uncalled fo-
+      text: \kelike! sina wile pali ala-
 
 # *BERLY hits KEL again*
 
 message_110:
-      text: \berAUBREY!
+      text: \berjan APEWI!
 
 message_111:
       faceset: MainCharacters_DreamWorld
       faceindex: 1
-      text: \aubHere I am!
+      text: \aubmi lon supa ni a!
 
 # *BERLY has a question mark appear over her head*
 
 message_112:
-      text: \berHuh? Where's BASIL?
+      text: \berseme? jan PASI li lon seme?
 
 message_113:
       faceset: MainCharacters_DreamWorld
       faceindex: 40
-      text: \herThat's strange...\! I thought I saw him go hiding near that tree over there.
+      text: \herni li nasa...\! tenpo weka la mi lukin e ona li tawa kasi ni.
 
 message_114:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: \aubBASIL! Where are you?\! Can you hear us?
+      text: \aubjan PASI! sina lon seme?\! sina kute ala kute e mi?
 
 message_115:
       faceset: MainCharacters_DreamWorld
       faceindex: 18
-      text: \kelBASIL!\! You can come out now!\! You already won!
+      text: \keljan PASI!\! sina ken kama!\! sina sewi e musi ni! #again, come out on top, we can discuss this
 
 message_116:
       faceset: MainCharacters_DreamWorld
       faceindex: 19
-      text: \kel\{\{\sinv[1]HELLOOOOOOO!? BASIL!?!?
+      text: \kel\{\{\sinv[1]TOKIIIIIIII!? jan PASI!?!?
 
 # *Screen shakes*
 
 message_117:
       faceset: MainCharacters_DreamWorld
       faceindex: 39
-      text: \herHey, there's BASIL!
+      text: \hero, ni li PASI!
 
 message_118:
       faceset: MainCharacters_DreamWorld
       faceindex: 28
-      text: \kelBASIL, are you okay?
+      text: \keljan PASI, are you okay?
 
 message_119:
       faceset: MainCharacters_DreamWorld
       faceindex: 26
-      text: \kelAre...\! Are you stuck?
+      text: \kelsina...\! sina ken ala ken tawa?
 
 message_120:
-      text: \n<BOSS>\com[2]\sinv[1]\{HWEHWE\{HWEHW\{EHWE!!
+      text: \n<BOSS>\com[2]\sinv[1]\{WEWE\{WEWE\{EWE!!
 
 message_121:
-      text: \berWhat's going on over there!?
+      text: \berseme li pali a!?
 
 message_122:
-      text: \berBOSS! I should've known it was you!
+      text: \berPOSI! tenpo weka la mi wile e ona li lon ma ni!
 
 message_123:
-      text: \berYou good-for-nothing scoundrel...\! Let BASIL go!
+      text: \bersina ken pali pona ala...\! o weka e jan PASI!
+      #sina ken pali pona ala...\! o weka e jan PASI!
 
 message_124:
       faceset: MainCharacters_DreamWorld
       faceindex: 30
-      text: \kelYeah! What did BASIL ever do to you!?
+      text: \kellon! seme la jan PASI li pali e sina?
 
 message_125:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: \aubBASIL is our friend!\! Don't you dare hurt him!
+      text: \aubjan PASI li jan pona mi!\! o pakala ala e ona!
 
 message_126:
       faceset: MainCharacters_DreamWorld
       faceindex: 44
-      text: \herLet go of BASIL, BOSS!\! He didn't do anything wrong!
+      text: \hero weka e jan PASI, jan POSI o!\! ona li pali ike ala!
 
 message_127:
-      text: \n<BOSS>\com[2]\sinv[1]\{HWEHWE\{HWEHW\{EHWE!!
+      text: \n<BOSS>\com[2]\sinv[1]\{WEWE\{WEWE\{EWE!!
 
 message_128:
-      text: \n<BOSS>You stupidheads!\! You think this is about BASIL?
+      text: \n<BOSS>sina jo e lawa pi sona ala!!\! sina sona e mi pali ala pali e ni tan jan PASI?
 
 message_129:
-      text: \n<BOSS>Don't play dumb!\! You know why I'm here!
+      text: \n<BOSS>o musi nasa ala!\! sina sona e mi lon ma ni!
 
 message_130:
-      text: \n<BOSS>How dare you not invite me to hide-and-seek!
+      text: \n<BOSS>seme la ona li kama ala e mi! mi wile musi e musi len!
 
 message_131:
-      text: \n<BOSS>I'm the one who showed you all how to play in the first place!
+      text: \n<BOSS>mi o pana sona e lawa pi musi len!
 
 message_138:
-      text: \n<BOSS>\com[2]You're not even playing it right!\! How can you call it hide-and-seek without any body-slamming!?
+      text: \n<BOSS>\com[2]sina o musi lon ala!\! musi len li jo e utala mute!
 
 # *BOSS takes BASIL's flower crown and throws it*
 
 message_132:
       faceset: MainCharacter_Basil
       faceindex: 3
-      text: \basMy \c[4]FLOWER CROWN\c[0]!
+      text: \bas\c[4]SIKE LEN PI KASI SUWI\c[0] mi a!
 
 message_133:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: \aubHey! That's the \c[4]FLOWER CROWN\c[0] we made for BASIL!
+      text: \aubo! mi mute li pali e \c[4]SIKE LEN PI KASI SUWI\c[0] ni!
 
 message_134:
       faceset: MainCharacters_DreamWorld
       faceindex: 30
-      text: \kelHow could you!?\! Let go of him, you bully!
+      text: \kelsina ken seme e pali ni!?\! o weka e ona! sina ike mute!
 
 message_135:
-      text: \n<BOSS>No!\! If I can't play with everyone, then no one can!
+      text: \n<BOSS>ala!\! mi ken musi ala lon ma ni la, jan ante ala li ken musi lon ma ni!
 
 message_136:
-      text: \n<BOSS>This is a BOSS-ONLY zone now...
+      text: \n<BOSS>mi taso ken lon ma ni...
 
 message_137:
-      text: \n<BOSS>\com[2]\quake[1]\{\{AND YOU'RE NOT INVITED!!
+      text: \n<BOSS>\com[2]\quake[1]\{\{SINA KEN LON MA NI ALA A!! 
+            #SINA KEN LON MA NI ALA A!! 
 
 # *BOSS battle*
 
@@ -616,78 +622,78 @@ message_137:
 
 #jump
 message_139:
-      text: \n<BOSS>\{THIS ISN'T FAIR!!
+      text: \n<BOSS>\{MI KEN SEWI ALA!!
 
 #jump#jump#jump
 
 message_140:
-      text: \n<BOSS>\com[2]\{REMATCH!!\! I WANT A REMATCH!!
+      text: \n<BOSS>\com[2]\{O SIN!!\! MI WILE UTALA SIN!!
 
 #KEL punches BOSS
 
 message_141:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: \aubBASIL... Are you hurt?
+      text: \aubjan PASI o... sina pakala ala pakala?
 
 message_142:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basAh, don't worry about me.\! I'm just fine.
+      text: \baso pali nasa ala tan mi.\! mi pona.
 
 message_143:
       faceset: MainCharacter_Basil
       faceindex: 2
-      text: \basBOSS...\! It must hurt to see people have fun without you...
+      text: \basjan POSI o...\! sina lukin e ona musi poka ala sina la, mi sona e sina pilin ike...
 
 message_144:
       faceset: MainCharacter_Basil
       faceindex: 0
-      text: \basBut that doesn't mean you can ruin other people's fun...
+      text: \bastaso, sina ken pakala ala e musi pi jan ante
 
 message_145:
-      text: \n<BOSS>Hmph!\! I know that!
+      text: \n<BOSS>a!\! mi sona a!
 
 #BASIL takes offf the no boss bulletin
 
 message_146:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basThere...\! Does that feel better?
+      text: \baslon...\! tenpo ni la sina pilin pona ala pona?
       # Blahblhablha
 
 message_147:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: \aubBASIL! Are you sure it's okay to do that?
+      text: \aubjan PASI o! pali sina li pona ala ona?
 
 message_148:
       faceset: MainCharacters_DreamWorld
       faceindex: 31
-      text: \kelBOSS is bad news!\! It's a good thing OMORI held on during that final attack, or else we would've all been TOAST...
+      text: '\keljan POSI li ike mute!\! ni li pona: utala pini la jan OMOLI li awen. ona li awen ala la, mi mute li PANA... '
 
 message_149:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basIt's okay! I trust him.\! When you were all fighting, he tried really hard to make sure I didn't get hurt.
+      text: \basona li pona! ni li toki lon.\! sina mute li utala la, ona li wile ala e sina li pakala.
 
 message_301:
       faceset: MainCharacters_DreamWorld
       faceindex: 39
-      text: \herIs that true, BOSS?
+      text: \herjan PALI o. ni li lon ala lon?
 
 #BOSS turns around
 
 message_302:
-      text: \n<BOSS>...\! Hmph!
+      text: \n<BOSS>...\! mmnn!
 
 message_303:
-      text: \n<BOSS>That's a load of baloney...\! I don't need to hear these lies!
+      text: \n<BOSS>ona li toki nasa...\! mi wile kute ala e toki pi lon ala!
 
 #BOSS goes back to where teh tree was and pulls up the tree halfway.
 
 message_304:
-      text: \n<BOSS>This is my spot!\! No one is welcome here!
+      text: \n<BOSS>mi jo e supa lili ni!\! jan ante ala li ken kama!
 
 #BOSS pulls up the tree full
 
@@ -696,116 +702,119 @@ message_304:
 message_305:
       faceset: MainCharacters_DreamWorld
       faceindex: 47
-      text: \herWell...\! He probably won't be a problem as long as he stays like that.
+      text: \heraaaa...\! ona li lon supa ona la, ona li pali ala e ike.
 
 message_306:
       faceset: MainCharacters_DreamWorld
       faceindex: 37
-      text: \herI guess that means we can go to BASIL's house now.
+      text: \hertenpo ni la mi ken tawa tomo PASI.
 
 message_307:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basThat sounds good to me!
+      text: \bastoki sina li kalama pona!
 
 #BASIL walks up to BOSS tree
 
 message_320:
       faceset: MainCharacter_Basil
       faceindex: 2
-      text: \basWe're leaving now, BOSS.\! Don't cause any trouble, okay?
+      text: \basjan POSI o. mi o tawa. o pali ala e ike. sina sona ala sona?
 
 message_308:
-      text: \n<BOSS>...
+      text: \n<jan POSI>...
 
 #BASIL walks toward you
 
 message_309:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basOkay, I'm ready!\! Let's go!
+      text: \baslon, mi ken tawa a!\! o tawa!
 
 
-# -----------------------------------------------------------------------------------------------------------------------------
+# # -----------------------------------------------------------------------------------------------------------------------------
 
-#KEL became toast
+# #KEL became toast
+# #this isn't in the final game, don't bother translating it
 
-message_150:
-      text: \herActually, wait a minute... I think KEL just became TOAST!
+# message_150:
+#       text: \herActually, wait a minute... I think KEL just became TOAST!
 
-message_151:
-      text: \aubHuh? Oh, you're right.
+# message_151:
+#       text: \aubHuh? Oh, you're right.
 
-message_152:
-      text: \aubUseless as ever, I see.
+# message_152:
+#       text: \aubUseless as ever, I see.
 
-message_153:
-      text: \herThat's not good...\! Does anybody have some \c[3]LIFE JAM\c[0] on hand to-
+# message_153:
+#       text: \herThat's not good...\! Does anybody have some \c[3]LIFE JAM\c[0] on hand to-
 
-message_154:
-      text: \n<LIFE JAM GUY>\com[2]\{DID SOMEONE SAY \{\c[3]LIFE JAM\c[0]!?
+# message_154:
+#       text: \n<LIFE JAM GUY>\com[2]\{DID SOMEONE SAY \{\c[3]LIFE JAM\c[0]!?
 
-# -----------------------------------------------------------------------------------------------------------------------------
+# # -----------------------------------------------------------------------------------------------------------------------------
 
-# LIFE JAM GUY: (Use placeholder graphic)
+# # LIFE JAM GUY: (Use placeholder graphic)
 
-message_155:
-      text: \n<LIFE JAM GUY>Hey, kids! I'm the \c[3]LIFE JAM\c[0] guy!<br>\!I sell \c[3]LIFE JAM\c[0]!\! It really works!
+# message_155:
+#       text: \n<LIFE JAM GUY>Hey, kids! I'm the \c[3]LIFE JAM\c[0] guy!<br>\!I sell \c[3]LIFE JAM\c[0]!\! It really works!
 
-message_156:
-      text: \n<LIFE JAM GUY>Would you like a free demo?
+# message_156:
+#       text: \n<LIFE JAM GUY>Would you like a free demo?
 
-# [YES/NO]
+# # [YES/NO]
 
-# If [YES], he destroys everyone in battle except you (because of plot armor).
-# *fade out of battle*
+# # If [YES], he destroys everyone in battle except you (because of plot armor).
+# # *fade out of battle*
 
-message_157:
-      text: \n<LIFE JAM GUY>Don't be ridiculous...\! \com[2]Of course you do!
+# message_157:
+#       text: \n<LIFE JAM GUY>Don't be ridiculous...\! \com[2]Of course you do!
 
-message_158:
-      text: \n<LIFE JAM GUY>Very good, yes?<br>\!Now... Would you like to buy some \c[3]LIFE JAM\c[0]?<br>\!It will only cost you 250 CLAMS.\$
+# message_158:
+#       text: \n<LIFE JAM GUY>Very good, yes?<br>\!Now... Would you like to buy some \c[3]LIFE JAM\c[0]?<br>\!It will only cost you 250 CLAMS.\$
 
-message_159:
-      text: \n<LIFE JAM GUY>Would you like to buy some \c[3]LIFE JAM\c[0]?<br>\!It will only cost you 250 CLAMS.\$
+# message_159:
+#       text: \n<LIFE JAM GUY>Would you like to buy some \c[3]LIFE JAM\c[0]?<br>\!It will only cost you 250 CLAMS.\$
 
-message_160:
-      text: You got \c[3]LIFE JAM\c[0].
+# message_160:
+#       text: You got \c[3]LIFE JAM\c[0].
 
-message_161:
-      text: \n<LIFE JAM GUY>Hm, you don't have enough CLAMS.<br>\!Come back when you've got more!
+# message_161:
+#       text: \n<LIFE JAM GUY>Hm, you don't have enough CLAMS.<br>\!Come back when you've got more!
 
-message_162:
-      text: \n<LIFE JAM GUY>Haha, that's okay.\! You will need to later.
+# message_162:
+#       text: \n<LIFE JAM GUY>Haha, that's okay.\! You will need to later.
 
-message_163:
-      text: \n<LIFE JAM GUY>\com[2]\c[3]LIFE JAM\c[0]!\! It really works!
+# message_163:
+#       text: \n<LIFE JAM GUY>\com[2]\c[3]LIFE JAM\c[0]!\! It really works!
 
-message_164:
-      text: \n<LIFE JAM GUY>How did you like my free demo?\! Haha, I'm kidding.\!<br>I know you loved it!
+# message_164:
+#       text: \n<LIFE JAM GUY>How did you like my free demo?\! Haha, I'm kidding.\!<br>I know you loved it!
 
-message_165:
-      text: \n<LIFE JAM GUY>Oh! I see you are still hurt.\! No worries! I will heal you, haha!
+# message_165:
+#       text: \n<LIFE JAM GUY>Oh! I see you are still hurt.\! No worries! I will heal you, haha!
 
-# Note: He'll probably do something similar later with SUPER LIFE JAM
+# # Note: He'll probably do something similar later with SUPER LIFE JAM
 
-message_180:
-      text: \basHaha, what a strange person.\!<br>How are you feeling, KEL?
+# message_180:
+#       text: \basHaha, what a strange person.\!<br>How are you feeling, KEL?
 
-message_181:
-      text: \kelHm? Why do you ask?
+# message_181:
+#       text: \kelHm? Why do you ask?
 
-message_182:
-      text: \aubYou just got turned into TOAST! Don't you remember?
+# message_182:
+#       text: \aubYou just got turned into TOAST! Don't you remember?
 
-message_183:
-      text: \kelI got turned into TOAST? I don't know, that sounds pretty crazy. If something like that happened, I'd definitely remember.
+# message_183:
+#       text: \kelI got turned into TOAST? I don't know, that sounds pretty crazy. If something like that happened, I'd definitely remember.
 
-message_184:
-      text: \kelWhoa, did you find everybody, OMORI? You're pretty good at hide and seek, huh?
+# message_184:
+#       text: \kelWhoa, did you find everybody, OMORI? You're pretty good at hide and seek, huh?
 
-message_185:
-      text: \aub... We're going to BASIL's house now.
+# message_185:
+#       text: \aub... We're going to BASIL's house now.
+
+# #end of segment that isn't in the game :p
 
 # -----------------------------------------------------------------------------------------------------------------------------
 
@@ -813,7 +822,7 @@ message_171:
       text: \bertoki jan OMOLI o! o sona e ni?\!<br>tenpo suno ni la mi jo e pali... pali suli!\! o awen kepeken tenpo lili.\! sina o lukin!
 
 message_172:
-      text: \n<VAN>jan BELI li pilin wawa la on li toki kepeken tenpo lili.\!<br>mi ken kute lili e ona...
+      text: \n<VAN>jan BELI li pilin wawa la ona li toki kepeken tenpo lili.\!<br>mi ken kute lili e ona...
 
 message_174:
       faceset: MainCharacters_DreamWorld
@@ -825,63 +834,63 @@ message_174:
 #BEFORE YOU TALK TO THE pole
 
 message_250:
-      text: Hmm... Can I even hide anywhere around here?\n<VAN>
+      text: nnn... ma ni la mi ken len ala len?\n<VAN>
 
 message_251:
-      text: \}...\! I'll try my best...\n<SHARLEEN>
+      text: \}...\! mi pali e pona ale mi...\n<SALENA>
 
 message_252:
-      text: \sinv[1]Yawn...\! I feel sleepy...\n<MIKAL>
+      text: \sinv[1]kon...\! mi pilin lape...\n<MIKALI>
 
 message_253:
-      text: \{Yay!\} It's time to \{\sinv[1]play!\}\n<HAPI>
+      text: \{pona!\} tenpo ni la mi o \{\sinv[1]musi!\}\n<HAPI>
 
 message_254:
-      text: \sinv[1]Ahhh?\sinv[0]\n<BROWS>
+      text: \sinv[1]aaaa?\sinv[0]\n<POSA>
 
 message_255:
-      text: Sigh...\! I don't know where to hide.\!<br>I'm not creative at all...\n<BANGS>
+      text: kon...\! mi sona ala e len pona.\!<br>mi ken pali musi ala...\n<BANGS>
 
 message_256:
-      text: I wonder where me and NOSE should hide...\n<BUN>
+      text: mi en ijo Nose li ken len lon seme...\n<BUN>
 
 message_257:
-      text: Nose goes!\n<NOSE>
+      text: ijo Nose li tawa!\n<NOSE>
 
 message_258:
       faceset: MainCharacters_DreamWorld
       faceindex: 37
-      text: \herYou'll be fine, OMORI.\! Just believe in yourself!
+      text: \hertenpo kama la sina pona, jan OMOLI o.\! o sona e ni. sina ken pali e ni!
 
 message_259:
       faceset: MainCharacters_DreamWorld
       faceindex: 18
-      text: \kelYou got this in the bag, buddy!
+      text: \kelsina jo e ni lon poki, jan pona o!
 
 message_260:
       faceset: MainCharacters_DreamWorld
       faceindex: 3
-      text: \aubYou can do this!\! I believe in you, OMORI!
+      text: \aubsina ken sewi e ni!\! o sona e sina ken pali e ni, jan OMOLI!
 
 message_261:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basDon't worry, OMORI.\! I know you'll be okay!
+      text: \baso pali nasa ala, jan OMOLI.\! mi sona e tenpo kama la sina pona!
 
 message_262:
-      text: \berJust examine the pole when you want to start.\!<br>C'mon, OMORI! Don't be a baby!
+      text: \berJust examine the pole when you want to start.\!<br>o kama, jan OMOLI o! sina ala li jan lili lili a!
 
 
 #---
 #SHAWN AND REN
 
 message_263:
-      text: \n<SHAWN AND REN>Huff... Huff... Huff...\!<br>We're not playing...\! We're exercising!
+      text: \n<SHAWN AND REN>kon... kon... kon...\!<br>mi musi ala...\! mi o pali!
 
 message_264:
       faceset: MainCharacters_DreamWorld
       faceindex: 19
-      text: \kelWhere are you going, OMORI?\! You can't leave now! We haven't even won yet!
+      text: \kelsina tawa seme, jan OMOLI o?\! sina sewi ala la, sina ken weka ala a!
 
 
 # -----------------------------------------------------------------------------------------------------------------------------
@@ -891,21 +900,20 @@ message_264:
 #DAY 0-1
 
 message_279:
-      text: \n<BOSS>...
+      text: \n<jan POSI>...
 
 #DAY 0-2:OTHERWORLD
 
 message_280:
-      text: Huh? BASIL's missing again?\!<br>It wasn't me this time, I promise!\!<br>Now leave me alone to repent!\n<BOSS>
+      text: seme? jan PASI li lon ala sin?\!<br>tenpo ni la mi pali ala. mi toki lon!\!<br>o tawa. mi pilin ike!\n<jan POSI>
 
 #DAY 1:SWEETHEART
 
 message_281:
-      text: You guys still haven't found BASIL, yet?\!<br>You guys are such losers!\n<BOSS>
-
+      text: tenpo ni la sina alasa ala anu seme e jan PASI?\!<br>sina o sewi ala!\n<BOSS>
 
 message_282:
-      text: ...\! Let me know if you find him, okay?\!<br>I just want to know that he's safe...\n<BOSS>
+      text: ...\! \sina alasa e jan PASI la, o toki mi. lon ala lon?!<br>mi wile sona e ona li pona...\n<BOSS>
 
 #DAY 2:DEEP WELL
 #RECKUT IS GONE
@@ -915,10 +923,10 @@ message_282:
 message_400:
       faceset: MainCharacters_DreamWorld
       faceindex: 19
-      text: \kelWe can't leave yet, OMORI! We haven't even won yet!
+      text: \kelmi ken weka ala, jan OMOLI o! mi sewi ala!
 
 message_401:
-      text: \n<NEB AND DAISY>\}\sinv[1]Whisper, whisper...\| Whisper, whisper...
+      text: \n<ijo NEPI en ijo TASI>\}\sinv[1]toki lili, toki lili...\| toki lili, toki lili...
 
 message_402:
-      text: You probably shouldn't disturb this.
+      text: o nasa ala e toki ni.

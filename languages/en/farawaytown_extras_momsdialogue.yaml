@@ -6,7 +6,7 @@
 
                   #Examine phone
 message_0:
-      text: \"Hey \n[8], it's MOMMY.\! I'm still in the city setting things up for our new home.\! Did you finish packing yet?\"\n<MOM'S VOICEMAIL>
+      text: \"toki, jan \n[8] o, mi jan MOMMY.\! I'm still in the city setting things up for our new home.\! Did you finish packing yet?\"\n<MOM'S VOICEMAIL>
 
 message_1:
       text: \"The movers are going to be at our house in a few days, so I left a list of things for you to do before they arrive.\"\n<MOM'S VOICEMAIL>
@@ -31,10 +31,10 @@ message_7:
 
 #SFX: Stomach Gurgle
 message_8:
-      text: You are hungry.
+      text: sina wile e moku.
 
 message_9:
-      text: You suddenly feel very AFRAID.
+      text: sina pilin MONSUTA mute.
 
 #Examine Fridge
 

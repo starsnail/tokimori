@@ -110,7 +110,7 @@ Map_Display_Names:
 # =========================================================================================
 
 Pluto_Ride_Names:
-  otherworld: OTHERWORLD
+  otherworld: MA ANTE
   orange_oasis: ORANGE OASIS
   vast_forest: VAST FOREST
   pyrefly: PYREFLY FOREST
@@ -177,8 +177,8 @@ Map_Character_Tag:
 # =========================================================================================
 
 Omori_Battle_System:
-  hold: "HOLD: x%1" # This is for the hold item on item window of battle scene. %1 is the number of items
-  cost: "COST:" # Those are the MP cost of a skill in battle
+  hold: "JO: x%1" # This is for the hold item on item window of battle scene. %1 is the number of items
+  cost: "WILE:" # Those are the MP cost of a skill in battle
 
 # =========================================================================================
 # OMORI BLACK LETTER MENU
@@ -243,7 +243,7 @@ Omori_Save_Load:
   location: "LON:"
   overwrite_file: sina wile sitelen ala sitelen sin e musi ni?
   load_file: sina wile musi ala musi e musi ni?
-  save_command: SITELEN
+  save_command: SITELN
   load_command: MUSI
 
 # =========================================================================================

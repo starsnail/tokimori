@@ -4,9 +4,7 @@
   "description": "musi OMORI li lon toki pona a!",
   "version": "0.0.1",
   "files": {
-    "plugins": [
-      "scripts/"
-    ],
+    "plugins": ["js/plugins/"],
     "text": ["languages/en/"],
     "data": ["data/"],
     "maps": [],
