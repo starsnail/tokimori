@@ -1,0 +1,130 @@
+message_1:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 18
+      text: \kel\c[13]HEKO\c[0] li kiwen pi wawa ale!
+
+message_2:
+    text: sina jo ala e jan pona sina la sina ken weka ala.
+
+message_3:
+    text: An eye stares at you from inside the shelf.
+
+message_4:
+    text: sitelen tawa musi li lon poki ni\!<br>mije tu tu li lon nasin tomo tawa.
+
+message_5:
+    text: sitelen pi jan pi sina sona.
+
+message_6:
+    text: ilo pi lawa lape li lukin sama pi lawa jan meli lili.
+
+message_7:
+    text: \n<SNAKE>\sinv[1]Sssssssssssss...?\sinv[0]\! (sina awen tan seme?)
+
+message_8:
+    text: lupa ni li lukin sama pi soweli.
+
+message_9:
+    text: You feel the presence of SOMETHING behind the door.\!<br>Look into the keyhole?
+
+message_10:
+    text: poki ni li jo e len pi lukin suwi.
+
+message_11:
+    text: ilo pi kipisi mute.
+
+message_12:
+    text: kasi wan li lon supa ni.
+
+message_13:
+    text: sina wile pali ala pali e PAN SELI?
+
+message_14:
+    text: sina pali e PAN SELI.
+
+message_15:
+    text: sike palisa en palisa pi musi pi sike palisa li lon supa ni.
+
+message_16:
+    text: linja soweli li lon ni.
+
+
+#- Omori's CUT Tag Skill
+
+message_17:
+      faceset: MainCharacter_Basil
+      faceindex: 2
+      text: \basHuh? There's some roots in the way...\!<br>How did these get here?
+
+message_18:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 1
+      text: \aubNo worries, BASIL!\!<br>I bet this would be a cinch for OMORI to \c[1]CUT\c[0] out of the way!
+
+message_19:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 3
+      text: \aubo kama, jan OMOLI!\! sina ken pali e ni!
+
+message_30:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 3
+      text: \aubo kama, jan OMOLI\! sina ken pali e ni!
+
+
+#- Snake money
+
+message_100:
+    text: \n<SNAKE>\sinv[1]Sssssssssssssss...?\!\sinv[0] (jan OMOLI a. sina tawa ala tawa?)\!<br>\sinv[1]Sssssssssssss...\!\sinv[0] (mi o tawa e mani KILAM.)
+
+message_101:
+    text: sina jo e mani KILAM \v[1001].
+
+message_102:
+    text: \n<SNAKE>\sinv[1]Sssssssssssss...\!\sinv[0] (o tawa pona.)
+
+message_103:
+    text: \n<SNAKE>\sinv[1]Ssssssssssss...?\!\sinv[0] (sina awen tan seme?)
+
+#Trying to go back inside Neighbor's Room before Basil is kidnapped
+
+message_110:
+      faceset: MainCharacter_Basil
+      faceindex: 2
+      text: \baso awen, jan OMOLI. mi mute wile tawa tomo mi!\! tomo mi ni anpa pi ma musi.
+
+message_111:
+      faceset: MainCharacter_Basil
+      faceindex: 1
+      text: \bastenpo weka la mi sike e kasi lili.\! o kama a! ona li lukin suwi mute!
+
+message_112:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 37
+      text: \herjan OMOLI, sina tawa seme.\! mi mute o lukin e jan MALI en jan PASILI\! mi ken weka ala e tenpo pi poki moku!
+
+message_113:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 39
+      text: \herWhere are you going, OMORI?\! Let's go see MARI.\! She's worried sick about you.
+
+message_114:
+      faceset: MainCharacter_Mari
+      faceindex: 2
+      text: \marLet's go see the spooky house, OMORI!\! Don't be scared.\! We're all doing this together!
+
+message_115:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 4
+      text: \aubWhere are you going, OMORI?\! We have to look for BASIL...
+
+#FRIEND TEXT
+message_120:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 3
+      text: \aubHi, OMORI!\! I'm so happy to see you!
+
+message_121:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 16
+      text: \kelWhat's up, best friend?\! Didja miss me? Heh, heh...

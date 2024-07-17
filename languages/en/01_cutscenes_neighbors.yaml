@@ -1,0 +1,553 @@
+# =========================================================================================
+# Cutscene: Neighbors Room Intro, DAY 0 PART 1
+# =========================================================================================
+
+#Area Block
+
+message_0:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 1
+      text: sina nasa a! ma musi li lon ma ante.\aub
+
+#TRIGGER: ENTER NEIGHBORS ROOM
+
+#upon seeing OMORI, AUBREY runs across the cards to greet him.
+
+message_1:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 2
+      text: toki, jan OMOLI o! mi mute li wile e sina kama.\!<br>sina wile musi ala musi?\! <br>tenpo kama lili la mi mute li musi e musi sin.\aub
+
+#AUBREY looks behind her.
+
+message_2:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 4
+      text: a!\! ike!\! tenpo weka la mi toki pi lon ala...\aub
+
+#KEL looks AUBREY and jumps.
+
+message_3:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 30
+      text: ike a... \Com[2]seme li ike, jan APEWI a!?\!<br>sina pakala e lipu musi!\!<br>tenpo kama lili la mi anpa e jan WAWA o.\kel
+
+message_4:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 39
+      text: o pilin pona. sina wile ala e pilin seli.\!<br>ni li musi taso.\her
+
+#KEL looks at HERO
+
+message_5:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 30
+      text: o toki ala e ni a!<br>\!sina li anpa la, sina toki e ni.\kel
+
+message_6:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 42
+      text: ...\ona
+
+# =========================================================================================
+# Aubrey's Dialogue before Omori gives her the PlantEgg
+# =========================================================================================
+
+message_10:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 9
+    text: \aubseme la, jan \n[3] li pali ike e mi!?\! <br>tenpo weka la, ona ike li jo e \c[13]IJO MUSI PI LEN SOWELI LAPE\c[0]. ni li lon tomo ni.
+
+message_11:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 10
+    text: \aubseme la ona li pali e ni?\! ona li jo ala e pali pi tenpo mute...\! <br>ona li pali e ni la, mi pali seme a!?
+
+message_12:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 1
+    text: \auba! mi sona!\! sina ken alasa e \c[13]IJO MUSI PI LEN SOWELI\c[0]? jan \n[1]?\! mi wile mute e ni a!
+
+
+# =========================================================================================
+#KELI's Dialogue
+# =========================================================================================
+
+message_13:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 16
+    text: \keltoki, \n[1]. tenpo weka la mi jo e ni. o lukin!
+
+message_14:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 17
+    text: \kelni li kiwen soweli pona. ni li pona ala pona?
+
+message_15:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 35
+    text: kiwen lili li lukin e sina tan poki \n[3].
+
+message_16:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 18
+    text: \kel\{NIMI ONA LI... NIMI \c[13]HEKO\c[0]!!\}
+
+message_126:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 16
+    text: \kel\}toki ni la, o toki jan ala e toki ni\!<br>tenpo ale la sina ken lukin e ona tan O PALI!
+
+message_17:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 28
+    text: \kel\SINV[1]aaaaaaaaaaaaaaaaaaaaa...\sinv[0]\!<br>tenpo ale la jan APEWI li jo e ijo pi wile ona.
+
+# =========================================================================================
+# Hero's Dialogue
+# =========================================================================================
+
+message_18:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 37
+    text: \her\tenpo weka la sina pali seme, jan \n[1]? tepno weka la mi mute li awen tan sina!
+
+message_19:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 40
+    text: \her\tenpo mute la \n[3] en \n[2] li utala.\!<br>tenpo mute la sina sona e ona li wile pali ala, taso, ona li jo mute e wawa.
+
+# =========================================================================================
+# Cutscene: STUFFED TOY
+# =========================================================================================
+
+#TRIGGER: OMORI finds AUBREYs Stuffed Toy, and returns the Stuffed toy to AUBREY
+
+message_27:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 3
+      text: s-seme ni...?\! ni li ken ala ken?\aub
+
+#AUBREY does a twirl.
+
+message_28:
+      text: jan APEWI li jo e \c[13]IJO MUSI PI LEN SOWELI\c[0] tan sina.
+
+#AUBREY turns toKELI.
+
+message_29:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 1
+      text: janKELI, o lukin!\! ni li \c[13]IJO MUSI PI LEN SOWELI\c[0] mi!\aub
+
+#KEL looks at AUBREY and jumps.
+
+message_30:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 30
+      text: \Com[2]se- seme a?\! sina jo e ijo tan seme?\kel
+
+message_31:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 1
+      text: jan OMOLI li alasa!\!<br>mi jo e jan pona lon a!\aub
+
+message_32:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 39
+      text: sina wile e ni, janKELI o.\!<br>ona li wile ike ala e jan ante.\her
+
+#KEL looks at HERO.
+
+message_33:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 24
+      text: taso, jan APEWI li open e ni.\!<br>ona li pali musi tan nena mi<br>lon...\kel
+      #ona li pali musi tan nena mi lon...
+
+message_34:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 1
+      text: lon...\! seme?\aub
+
+message_35:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 27
+      text: ...\kel
+
+#HERO looks at AUBREY
+
+message_36:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 43
+      text: jan APEWI...\her
+
+
+message_37:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 9
+      text: lon...\aub
+
+# =========================================================================================
+# Aubrey's Dialogue after Omori gives her PlantEgg
+# =========================================================================================
+
+message_38:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 1
+    text: \aubtenpo weka la mi wile mute e ni, jan \n[1]! tenpo weka la mi sona e sina ken alasa\!<br>sina li pona mute a!
+
+# =========================================================================================
+# Hero's Dialogue after Omori gives Aubrey PlantEgg
+# =========================================================================================
+
+message_39:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 37
+    text: \hertoki, jan \n[1] o! ni li pona a.\! ona tu li.
+
+message_43:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 38
+    text: \herjan MALI en jan PASILI li wile mi mute lon supa pi poki moku!\!<br>sina wile tawa ala tawa.?
+
+message_40:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 38
+    text: \herjan ale...\!<br>o tawa jan MALI en jan PASILI!
+
+message_41:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 37
+    text: \herlon. nasa li lon ala!\! We'll be here.
+
+message_42:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 37
+    text: \hertoki, jan \n[1] o!\! sina wile tawa ala tawa?
+
+#IF YOU GO TO WHITE SPACE AND THEN RETURN TO NEIGHBOR'S ROOM
+
+message_50:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 37
+    text: \hertoki, jan OMOLI o! o kama pona!\! sina wile tawa ala tawa?
+
+#DAY 1 PYREFLY
+
+message_51:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 37
+    text: \herAlright everyone...\!<br>Let's go find BASIL!
+
+#AFTER SGL
+
+message_52:
+    faceset: MainCharacters_DreamWorld
+    faceindex: 37
+    text: \herAlright everyone...\!<br>Let's go exploring!
+
+# =========================================================================================
+# Cutscene: STUMP ENTRANCE
+# =========================================================================================
+
+#TRIGGER: ENTER STUMP ENTRANCE
+
+#KEL, HERO, and OMORI pop out of the stump.
+
+message_58:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 18
+      text: \{\sinv[1]A PONA!! KON SIN NI LI PONA!!\!\}<br>mi wile olin e kasi.\! o tawa!\kel
+
+#KEL, HERO, and OMORI start walking to FOREST PLAYGROUND.
+  #AUBREY is off screen
+
+message_59:
+      text: \Com[2]o awen lili a.\aub
+
+  #AUBREY pops out of the stump half-way
+
+message_60:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 10
+      text: o pona e mi! mi ken tawa ala.\aub
+
+#HERO begins walking toward stump but is blocked byKELI.
+
+message_61:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 17
+      text: \SINV[1]sina pali ike ala la mi pona e sina a!\SINV[0]\kel
+
+message_62:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 8
+      text: janKELI o pali nasa ala. o pona e mi.\aub
+
+message_63:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 24
+      text: lon, lon... \}lon.\kel
+
+#KEL pulls AUBREY out of the stump.
+
+message_64:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 9
+      text: mm!\! ni li pali e tenpo mute!\aub
+
+message_65:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 24
+      text: mi pilin ike. jan sewi...\kel
+
+# =========================================================================================
+# Cutscene: Mari and Basil
+# =========================================================================================
+
+#TRIGGER: enter Forest Playground
+
+#AUBREY runs to MARI.
+
+message_86:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 3
+      text: \{MALI! PASILI!\aub
+
+message_87:
+      faceset: MainCharacter_Mari
+      faceindex: 0
+      text: a, toki, jan APEWI! toki, jan ale!\!<br>sina pilin seme?\mar
+
+message_88:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 10
+      text: \{janKELI li pali ike e mi!!\aub
+
+message_89:
+      faceset: MainCharacter_Mari
+      faceindex: 2
+      text: ike a!\! sin ala...\! seme la ona li pali?\mar
+
+message_90:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 25
+      text: ala. mi pali ike ala.\! jan APEWI li pilin ike mute.\kel
+
+message_91:
+      faceset: MainCharacter_Mari
+      faceindex: 2
+      text: lon, janKELI!\! sina toki pi lon mute.\! <br>tenpo ni la mi sona ala e jan pi toki lon\mar
+
+message_92:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 30
+      text: \{O SONA LON E TOKI MI A!!\kel\}
+
+message_93:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 10
+      text: \{ALA! O SONA LON E TOKI MI A!!\aub\}
+
+message_94:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 40
+      text: kon...\! sina tu o pilin lete...\!<br>\}seme la ona li pali ala pali ni?\her
+
+message_95:
+      faceset: MainCharacter_Mari
+      faceindex: 3
+      text: o lukin sewi, jan WAWA! o lukin e sina. sina pali pi ijo wile.\mar
+
+message_96:
+      faceset: MainCharacter_Mari
+      faceindex: 7
+      text: mi pilin pona tan ijo pi sina. a a.\mar
+
+message_97:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 47
+      text: o pali ala e ni, jan MALI.\! tenpo ni ala...\her
+
+message_98:
+      faceset: MainCharacter_Mari
+      faceindex: 6
+      text: a, jan WAWA, sina sona e mi musi ike.\!<br>sina sinpin loje la sina suwi mute\mar
+
+message_99:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 40
+      text: ...\her
+
+message_100:
+      faceset: MainCharacter_Mari
+      faceindex: 3
+      text: e e e...\mar
+
+message_101:
+      faceset: MainCharacter_Mari
+      faceindex: 0
+      text: tenpo pi mi awen la mi en jan PASILI li lukin e \c[4]LIPU PI SITELEN\c[0] ona!\! sina wile kama ala kama?\mar
+
+message_102:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 1
+      text: lon a!\!<br>mi mute li lon sitelen. ni li lon ala lon?\aub
+
+message_103:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 17
+      text: \{JAN PASILI, JAN PASILI! O LUKIN E NI!!\kel
+
+#Kel does a pose
+
+message_104:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 18
+      text: \Com[2]jan PASILI o sitelen mi a!\kel
+
+#Short pause
+
+message_105:
+      faceset: MainCharacter_Basil
+      faceindex: 2
+      text: mi pilin ike, janKELI. jan li sona ala la mi sitelen e ona.\bas
+
+message_106:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 38
+      text: jan li pali pi ilo sitelen li lon ala la sina wile sitelen ala sitelen?\her
+
+message_107:
+      faceset: MainCharacter_Basil
+      faceindex: 1
+      text: lon...\! ni li pona nasa, jan ale li lon nasin sina.\! tenpo ni la mi wile sitelen.\bas
+
+message_108:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 19
+      text: a...\! sina lon ala la mi wile pali ala pali?\kel
+
+message_109:
+      faceset: MainCharacter_Basil
+      faceindex: 0
+      text: a a...\! lon, sina ken toki e ni.\bas
+
+message_110:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 16
+      text: lon! mi ken pali e ni.\kel
+
+#Kel looks away.
+
+message_111:
+      faceset: MainCharacter_Mari
+      faceindex: 0
+      text: jan PASILI, mi mute la sina wile lukin ala lukin e \c[4]LIPU PI SITELEN\c[0].\mar
+
+message_112:
+      faceset: MainCharacter_Basil
+      faceindex: 0
+      text: a, lon...\! ni li pona mute ala.\bas
+
+message_113:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 2
+      text: jan PASILI, o toki ike ala.\!<br>mi sona e sitelen ni li pona mute.\aub
+
+message_114:
+      faceset: MainCharacter_Basil
+      faceindex: 6
+      text: jan APEWI, sina toki lon.\!<br>mi pilin ike...\! tenpo mute la mi sona pona e mi.\bas
+
+#Basil takes out PHOTO ALBUM.
+#Party surrounds Basil, exceptKELI.
+
+message_115:
+      faceset: MainCharacter_Basil
+      faceindex: 1
+      text: lon!\! tenpo ni la jan ale li ken lukin.\bas
+
+message_116:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 39
+      text: sitelen ni li nasa pona.\!<br>sina ken sitelen pona e tenpo!\her
+
+message_117:
+      faceset: MainCharacter_Basil
+      faceindex: 0
+      text: pona...\! taso, mi sitelen ale ala.\!<br>tenpo lili la jan MALI li jo e ILO SITELEN mi.\bas
+
+message_118:
+      faceset: MainCharacter_Mari
+      faceindex: 6
+      text: tenpo lili!\mar
+
+message_119:
+      faceset: MainCharacter_Basil
+      faceindex: 1
+      text: a, mi sona.\! sina mute li wile tawa ala tawa tomo mi?\bas
+
+message_127:
+      faceset: MainCharacter_Basil
+      faceindex: 1
+      text: mi sike e kasi lili.\! o kama! ona li lukin suwi mute!\bas
+
+message_120:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 17
+      text: lon lon, sina toki e ijo musi.\! o tawa!\kel
+
+#Hero walks 1 step down.
+
+message_121:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 39
+      text: nasin li anpa ala anpa pi ma musi?\her
+
+message_122:
+      faceset: MainCharacter_Basil
+      faceindex: 1
+      text: lon, nasin li anpa!\bas
+
+message_123:
+      faceset: MainCharacter_Mari
+      faceindex: 1
+      text: \marnnn...\! mi wile awen lon ma ni.\! o tawa, o musi!\mar
+
+message_130:
+      faceset: MainCharacter_Mari
+      faceindex: 0
+      text: \martaso, sina pilin pi wawa lili la, sina ken awen poka supa pi poki moku a!
+      #taso, sina pilin pi wawa lili la, sina ken awen poka supa pi poki moku a!
+
+message_131:
+      faceset: MainCharacter_Mari
+      faceindex: 6
+      text: tenpo ale la mi jo e telo...\! poki moku mi la sina ken SITELEN a!\mar
+      #tenpo ale la mi jo e telo...\! poki moku mi la sina ken SITELEN a!\mar
+
+message_132:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 37
+      text: \herawaa... mi pilin pona, jan MALI! tenpo ale la sina pali mute!
+      #\herawaa... mi pilin pona, jan MALI! tenpo ale la sina pali mute!
+
+message_124:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 3
+      text: o tawa pona, jan MALI! tenpo kama lili la mi mute li lukin e sina!\aub
+      #o tawa pona, jan MALI! tenpo kama lili la mi mute li lukin e sina!\aub
+
+message_125:
+      faceset: MainCharacter_Mari
+      faceindex: 3
+      text: o tawa! o musi!<br>\!sina sona e lon mi!\mar
+
+# =========================================================================================
+# NEIGHBOUR'S ROOM DOOR
+# =========================================================================================
+
+message_200:
+      text: jan pona sina li awen tan sina.

@@ -1,0 +1,9 @@
+
+message_1:
+      text: A singular plate.\! It's empty.
+
+message_2:
+      text: There's one bean on the plate.
+
+message_3:
+      text: There are \v[143] beans on the plate.

@@ -1,0 +1,15 @@
+#
+# Hey there.
+#
+
+message_1:
+    text: "Skip \\c[3]COFFEE\\c[0] wait time?"
+    
+
+message_2:
+    text: "Skipped."
+    
+
+message_3:
+    text: "\\n<AGENT 7>Did you forget when I uploaded this mod?"
+    

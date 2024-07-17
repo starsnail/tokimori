@@ -1,0 +1,48 @@
+#if you're reading this, you're based
+
+message_0:
+  text: How many \c[5]CANS\c[0] would you like to recycle?<br>Press \DII[up] to increase.<br>Press \DII[down] to decrease.
+
+message_1:
+  text: How many \c[5]GLASS BOTTLES\c[0] would you like to recycle?<br>Press \DII[up] to increase.<br>Press \DII[down] to decrease.
+
+message_2:
+  text: How much \c[5]CARDBOARD\c[0] would you like to recycle?<br>Press \DII[up] to increase.<br>Press \DII[down] to decrease.
+
+message_3:
+  text: How many \c[5]DEAD BATTERIES\c[0] would you like to recycle?<br>Press \DII[up] to increase.<br>Press \DII[down] to decrease.
+
+message_4:
+  text: How many \c[5]COMPUTER PARTS\c[0] would you like to recycle?<br>Press \DII[up] to increase.<br>Press \DII[down] to decrease.
+
+message_5:
+  text: Please put in a valid amount of \c[5]CANS\c[0] you own.
+
+message_5_1:
+  text: Please put atleast 1 \c[5]CAN\c[0].
+
+message_6:
+  text: Please put in a valid amount of \c[5]GLASS BOTTLES\c[0] you own.
+
+message_6_1:
+  text: Please put atleast 1 \c[5]GLASS BOTTLE\c[0].
+
+message_7:
+  text: Please put in a valid amount of \c[5]CARDBOARD\c[0] you own.
+
+message_7_1:
+  text: Please put atleast 1 \c[5]CARDBOARD\c[0].
+
+message_8:
+  text: Please put in a valid amount of \c[5]DEAD BATTERIES\c[0] you own.
+
+message_8_1:
+  text: Please put atleast 1 \c[5]DEAD BATTERY\c[0].
+
+message_9:
+  text: Please put in a valid amount of \c[5]COMPUTER PARTS\c[0] you own.
+
+message_9_1:
+  text: Please put atleast 1 \c[5]COMPUTER PART\c[0].
+
+#i wanna recycle yo MAMA! owned!

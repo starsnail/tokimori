@@ -1,0 +1,198 @@
+# -----------------------------------------------
+# - THE WHITE DOOR
+# -----------------------------------------------
+message_0:
+    text: "ni li nena walo.\\!<br>sina wile pali seme?"
+message_1:
+    text: "OPEN E NENA"
+message_2:
+    text: "PALI ALA"
+message_3:
+    text: "sina lukin e nena."
+
+# -----------------------------------------------
+# - THE CAT
+# -----------------------------------------------
+message_4:
+    text: "\\n<MEWO>mu?\\! (sina awen tan seme?)"
+
+message_404:
+    text: "\\n<MEWO>Meow?\\! (Not much to do around here, is there?)"
+
+message_405:
+    text: "\\n<MEWO>Meow?\\! (Or is there?)"
+
+message_406:
+    text: "\\n<MEWO>Meow?\\! (Are you looking for a way out?)"
+
+message_407:
+    text: "\\n<MEWO>Meow...\\! (There always is one...\\| but...)"
+
+message_408:
+    text: "\\n<MEWO>Meow?\\! (Waiting for something to happen?)"
+
+message_409:
+    text: "\\n<MEWO>Meow?\\! (When is Mom coming back?)"
+
+
+# -----------------------------------------------
+# - THE LAPTOP
+# -----------------------------------------------
+message_5:
+    text: "sina open e ilo sona sina."
+message_6:
+    text: "sina wile pali seme?"
+message_7:
+    text: "O LUKIN E SUPA PI NIMI NENA"
+message_8:
+    text: "O LUKIN E LEN LUPA LUKIN"
+message_40:
+    text: "O OPEN E LIPU SINA PI TENPO SUNO ALE"
+message_9:
+    text: "O WEKA"
+message_10:
+    text: "sina lukin e len lupa lukin."
+message_11:
+    text: "seli tan ilo sona sina li seli e anpa sina.\\!\\lb ni li pona."
+message_12:
+    text: "poki ni la, sina ken pali ala e ilo sona ni."
+
+# -----------------------------------------------
+# - THE SKETCHBOOK
+# -----------------------------------------------
+message_13:
+    text: "ilo sitelen sina.\\!\\lb sina wile lukin ala lukin?"
+message_14:
+    text: "LON"
+message_15:
+    text: "ALA"
+
+# -----------------------------------------------
+# - THE TISSUE BOX
+# -----------------------------------------------
+message_16:
+    text: "poki ni li jo e lipu suwi kon. ni li weka e ike sina."
+
+# -----------------------------------------------
+# - THE LIGHTBULB
+# -----------------------------------------------
+message_17:
+    text: "ijo suno li lon linja. seme li lon sewi linja?\\!\\lb<br>sina wile lukin ala lukin e ijo suno?"
+message_18:
+    text: "ale pi ijo ni li pimeja.\\! sina ken lukin ala la sina lukin e ijo suno ni."
+
+# -----------------------------------------------
+# - THE KNIFE
+# -----------------------------------------------
+message_19:
+    text: "ijo li anpa."
+message_20:
+    text: "tenpo ni la sina jo e \\v[49].\\!\\lb <br>sina ken lukin e sina tan ilo ni."
+
+# -----------------------------------------------
+# - LIGHTBULB BREAK
+# -----------------------------------------------
+message_30:
+    text: "It's pitch black inside.\\! You can't see a thing."
+
+# -----------------------------------------------
+# - MISCELLANOUS
+# -----------------------------------------------
+message_21:
+    text: "sina jo ala e ilo utala la, sina ken weka ala."
+
+message_31:
+    text: "You got a BLURRY PHOTO."
+
+message_32:
+    text: sina jo e ILO WALO PI KIPISI MOKU
+
+# -----------------------------------------------
+#           "WHITE SPACE" (MAP 388)
+# -----------------------------------------------
+
+
+
+# -----------------------------------------------
+# - THE WHITE DOOR
+# -----------------------------------------------
+message_100:
+    text: "ni li nena walo.\\!<br>sina wile pali seme?"
+message_101:
+    text: "O OPEN E SUPA"
+message_102:
+    text: "O LUKIN E SUPA"
+message_103:
+    text: "sina lukin e supa."
+
+# -----------------------------------------------
+# - THE CAT
+# -----------------------------------------------
+message_104:
+    text: \n<CAT>mu?
+
+# -----------------------------------------------
+# - THE LAPTOP
+# -----------------------------------------------
+message_105:
+    text: "ni li nasa mute."
+message_106:
+    text: "sina wile pali seme?"
+message_107:
+    text: "O LUKIN E SUPA PI NIMI NENA"
+message_108:
+    text: "O LUKIN E LEN LUPA LUKIN"
+message_109:
+    text: "O WEKA"
+message_110:
+    text: "sina lukin e len lupa lukin."
+# message_111:
+#     text: "The heat from the laptop warmed your lap.\\!\\lb It felt nice."
+message_112:
+    text: "poki ni la, sina ken pali ala e ilo sona ni."
+
+# -----------------------------------------------
+# - THE SKETCHBOOK
+# -----------------------------------------------
+message_113:
+    text: "lipu sitelen sina.\\!\\lb sina wile lukin ala lukin e insa?"
+message_114:
+    text: "LON"
+message_115:
+    text: "ALA"
+
+# -----------------------------------------------
+# - THE TISSUE BOX
+# -----------------------------------------------
+message_116:
+    text: "poki pi lipu suwi kon."
+
+# -----------------------------------------------
+# - THE LIGHTBULB
+# -----------------------------------------------
+message_117:
+    text: "ijo suno li lon linja. seme li lon sewi linja?\\!\\lb<br>sina wile lukin ala lukin e ijo suno?"
+message_118:
+    text: "ale pi ijo ni li pimeja.\\! sina ken lukin ala la sina lukin e ijo suno ni."
+
+# -----------------------------------------------
+# - OMORI
+# -----------------------------------------------
+message_120:
+    faceset: 01_OMORI_BATTLE
+    faceindex: 0
+    GHtext: \n<OMORI>...
+
+message_121:
+    text: "A lightbulb hangs from the ceiling.\\!\\lb<br>Do you want to destroy it?"
+
+message_125:
+    text: You learned \c[1]RED HANDS\c[0].
+
+message_126:
+    text: You found a map.
+
+#BLACK SPACE Door
+
+message_200:
+    text: "A black door casts a heavy shadow.\\!<br>What would you like to do?"

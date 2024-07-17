@@ -1,0 +1,17 @@
+{
+  "id": "tokipona",
+  "name": "musi OMORI li lon toki pona",
+  "description": "musi OMORI li lon toki pona a!",
+  "version": "0.0.1",
+  "files": {
+    "plugins": [
+      "scripts/"
+    ],
+    "text": ["languages/en/"],
+    "data": ["data/"],
+    "maps": [],
+    "assets": [ "fonts/", "img/pictures/", "img/system/", "img/tilesets/", "img/characters/", "img/atlases/", "img/enemies/", "img/animations/", "img/sv_actors/", "img/slotmachine/", "img/pictures/Sequence/", "movies/" ],
+    "exec": []
+  }
+}
+
