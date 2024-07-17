@@ -2,13 +2,13 @@
 # - THE WHITE DOOR
 # -----------------------------------------------
 message_0:
-    text: "ni li nena walo.\\!<br>sina wile pali seme?"
+    text: "ni li lupa walo.\\!<br>sina wile seme?"
 message_1:
-    text: "OPEN E NENA"
+    text: "OPEN E LUPA"
 message_2:
-    text: "PALI ALA"
+    text: "OPEN ALA"
 message_3:
-    text: "sina lukin e nena."
+    text: "sina lukin e lupa."
 
 # -----------------------------------------------
 # - THE CAT
@@ -17,22 +17,28 @@ message_4:
     text: "\\n<MEWO>mu?\\! (sina awen tan seme?)"
 
 message_404:
-    text: "\\n<MEWO>Meow?\\! (Not much to do around here, is there?)"
+    # text: "\\n<MEWO>Meow?\\! (Not much to do around here, is there?)"
+    text: "\\n<MEWO>mu.\\! (ma ni la pali pi mute lili li lon.)"
 
 message_405:
-    text: "\\n<MEWO>Meow?\\! (Or is there?)"
+    # text: "\\n<MEWO>Meow?\\! (Or is there?)"
+    text: "\\n<MEWO>...mu?\\! (...anu seme?)"
 
 message_406:
-    text: "\\n<MEWO>Meow?\\! (Are you looking for a way out?)"
+    # text: "\\n<MEWO>Meow?\\! (Are you looking for a way out?)"
+    text: "\\n<MEWO>mu?\\! (sina lukin ala lukin e nasin tawa?)"
 
 message_407:
-    text: "\\n<MEWO>Meow...\\! (There always is one...\\| but...)"
+    # text: "\\n<MEWO>Meow...\\! (There always is one...\\| but...)"
+    text: "\\n<MEWO>mu...\\! (nasin wan li lon...\\| taso...)"
 
 message_408:
-    text: "\\n<MEWO>Meow?\\! (Waiting for something to happen?)"
+    # text: "\\n<MEWO>Meow?\\! (Waiting for something to happen?)"
+    text: "\\n<MEWO>mu?\\! (Waiting for something to happen?)"
 
 message_409:
-    text: "\\n<MEWO>Meow?\\! (When is Mom coming back?)"
+    # text: "\\n<MEWO>Meow?\\! (When is Mom coming back?)"
+    text: "\\n<MEWO>mu?\\! (mama li kama lon tenpo seme?)"
 
 
 # -----------------------------------------------
@@ -117,13 +123,13 @@ message_32:
 # - THE WHITE DOOR
 # -----------------------------------------------
 message_100:
-    text: "ni li nena walo.\\!<br>sina wile pali seme?"
+    text: "ni li lupa walo.\\!<br>sina wile seme?"
 message_101:
-    text: "O OPEN E SUPA"
+    text: "O OPEN E LUPA"
 message_102:
-    text: "O LUKIN E SUPA"
+    text: "O LUKIN E LUPA"
 message_103:
-    text: "sina lukin e supa."
+    text: "sina lukin e lupa."
 
 # -----------------------------------------------
 # - THE CAT
@@ -137,7 +143,7 @@ message_104:
 message_105:
     text: "ni li nasa mute."
 message_106:
-    text: "sina wile pali seme?"
+    text: "sina wile seme?"
 message_107:
     text: "O LUKIN E SUPA PI NIMI NENA"
 message_108:
@@ -184,15 +190,18 @@ message_120:
     GHtext: \n<OMORI>...
 
 message_121:
-    text: "A lightbulb hangs from the ceiling.\\!\\lb<br>Do you want to destroy it?"
+    # text: "A lightbulb hangs from the ceiling.\\!\\lb<br>Do you want to destroy it?"
+    text: "ijo suno li lon linja.\\!\\lb<br>sina wile ala wile pakala e ona?"
 
 message_125:
     text: You learned \c[1]RED HANDS\c[0].
 
 message_126:
-    text: You found a map.
+    # text: You found a map.
+    text: sina kama jo e lipu ma.
 
 #BLACK SPACE Door
 
 message_200:
-    text: "A black door casts a heavy shadow.\\!<br>What would you like to do?"
+    # text: "A black door casts a heavy shadow.\\!<br>What would you like to do?"
+    text: lupa pimeja li lon.\\!<br>sina wile seme?
