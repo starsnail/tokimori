@@ -58,7 +58,7 @@ message_10:
 message_11:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basmi ken pali e pali ante\! tenpo kepeken lili ala la mi wile tawa tomo mi\! mi toki jan OMOLI\!<br>sina wile pali seme?
+      text: \basmi ken pali e pali ante.\! tenpo kepeken lili ala la mi wile tawa tomo mi\! mi toki jan OMOLI\!<br>sina wile pali seme?
 
 # BERLY walks up to OMORI.
 
@@ -267,7 +267,7 @@ message_55:
       text: \n<HAPI>a, mi sona! mi o toki e nimi lili ale!
 
 message_56:
-      text: \n<HAPI>w...\! u...\! t...\! s...\! p...\! o...\! n...\! m...\! Umm...\! l...
+      text: \n<HAPI>w...\! u...\! t...\! s...\! p...\! o...\! n...\! m...\! nnn...\! l...
 
 message_57:
       text: \n<BANGS>pakala, sina alasa e mi.\! tenpo ni la mi anpa...
@@ -404,7 +404,7 @@ message_85:
       text: \bersina pilin pona ala pona tan len mi?\! ni li pona mute ala mute?
 
 message_86:
-      text: \berIt looks like you pretty much found everyone else too!\!<br>Unexpected...\! but I like it!
+      text: \bersina alasa e jan ale ante, kin!<br>wawa...\! mi pilin pona tan ni!
             #sina alasa e jan ale ante, kin!\!<br>wawa...\! mi pilin pona tan ni!
 message_87:
       text: \bero kama! mi o lukin e lipu pi jan lon ma ni!
@@ -481,7 +481,7 @@ message_107:
 message_108:
       faceset: MainCharacters_DreamWorld
       faceindex: 24
-      text: \kelkon...\! tepno ale seme la sina wile pali e ni, jan BELI o?
+      text: \kelkon...\! tenpo ale seme la sina wile pali e ni, jan BELI o?
 
 # *BERLY hits KEL*
 
@@ -530,12 +530,12 @@ message_116:
 message_117:
       faceset: MainCharacters_DreamWorld
       faceindex: 39
-      text: \hero, ni li PASI!
+      text: \hero, ni li jan PASI!
 
 message_118:
       faceset: MainCharacters_DreamWorld
       faceindex: 28
-      text: \keljan PASI, are you okay?
+      text: \keljan PASI o, sina pilin pona ala pona?
 
 message_119:
       faceset: MainCharacters_DreamWorld
@@ -665,12 +665,12 @@ message_146:
 message_147:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: \aubjan PASI o! pali sina li pona ala ona?
+      text: \aubjan PASI o! pali sina li pona ala pona?
 
 message_148:
       faceset: MainCharacters_DreamWorld
       faceindex: 31
-      text: '\keljan POSI li ike mute!\! ni li pona: utala pini la jan OMOLI li awen. ona li awen ala la, mi mute li PANA... '
+      text: '\keljan POSI li ike mute!\! ni li pona: utala pini la jan OMOLI li awen. ona li awen ala la, mi mute li PAN... '
 
 message_149:
       faceset: MainCharacter_Basil

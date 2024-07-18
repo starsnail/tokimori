@@ -100,26 +100,26 @@ message_248:
 #Mailbox intro
 
 message_10:
-      text: \whoPsst...\! Hey!\! Psst...
+      text: \whoPsss...\! toki!\! Psss...
 
 message_11:
-      text: \whoYou!\! Yeah, you over there!
+      text: \whosina!\! lon, sina!
 
 message_12:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: \aubUmmm...\! OMORI...\! I think that mailbox is talking to us...\! <br>Maybe we should go check it out...
+      text: \aubuuum...\! jan OMOLI...\! poki pi tawa lipu li toki mi mute...\!<br>sina wile toki ala toki ona.
 
 #Mailbox opens
 message_13:
-      text: \maiYes, yes! Hello, valued customer...<br>Welcome to my shop! Please buy something! \}\sinv[1]Kekeke...
+      text: \mailon, lon! toki, jan esun...<br>o kama pona! ni li esun mi! o esun e ijo! \}\sinv[1]Kekeke...
 
 #MAILBOX - GENERAL
 
 #ENTER shop
 
 message_14:
-      text: \maiYes, yes! Hello, valued customer...<br>Welcome to my shop! Please buy something! \}\sinv[1]Kekeke...
+      text: \mailon, lon! toki, jan esun...<br>o kama pona! ni li esun mi! o esun e ijo! \}\sinv[1]Kekeke...
 
 #BUYING/SELLING
 
@@ -129,13 +129,14 @@ message_15:
 #LEAVE SHOP AFTER BUYING SOMETHING
 
 message_16:
-      text: \maiThank you kindly!
+      text: \maimi pilin pona tan sina esun! #thank you for your patronage
 
 #LEAVE SHOP WITHOUT BUYING ANYTHING
 
 message_17:
-      text: \maiI'll have you know I don't appreciate window shoppers...
-#NOT ENOUGH CLAMS
+      text: \maimi pilin ike tan jan pi esun ala...
+
+##NOT ENOUGH CLAMS
 
 message_18:
       text: \maiWait a sec...\!<br>You don't have enough CLAMS for this!\!<br>What do you think I'm running here? A CHARITY!?

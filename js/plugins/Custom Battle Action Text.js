@@ -94,7 +94,7 @@ if (critical) {
 }
 
 if (mpDam > 0) {
-  var mpDamageText = target.name() + ' lost ' + mpDam + ' JUICE...';
+  var mpDamageText = 'ijo ' + target.name() + ' li weka e ' + 'WAWA TELO ' + mpDam;
   hpDamageText = hpDamageText + "\r\n" + mpDamageText;
 } else {
   var mpDamageText = '';
@@ -381,7 +381,7 @@ if (mpDam > 0) {
 
   case 'LOOK KEL 1':  // Look at Kel 1
     text = 'KEL eggs AUBREY on!\r\n';
-    text += target.name() + " feels ANGRY!";
+    text += 'jan ' + target.name() + " li pilin SELI!";
     break;
 
   case 'LOOK KEL 2': // Look at Kel 2
@@ -389,13 +389,13 @@ if (mpDam > 0) {
    text += 'KEL\'s and AUBREY\'s ATTACK rose!\r\n';
    var AUBREY = $gameActors.actor(2);
    var KEL = $gameActors.actor(3);
-   if(AUBREY.isStateAffected(14) && KEL.isStateAffected(14)) {text += 'KEL and AUBREY feel ANGRY!';}
+   if(AUBREY.isStateAffected(14) && KEL.isStateAffected(14)) {text += 'jan KELI en jan APEWI li pilin SELI!';}
    else if(AUBREY.isStateAffected(14) && KEL.isStateAffected(15)) {
     text += 'KEL feels ENRAGED!!\r\n';
-    text += 'AUBREY feels ANGRY!';
+    text += 'jan APEWI li pilin SELI!';
    }
    else if(AUBREY.isStateAffected(15) && KEL.isStateAffected(14)) {
-    text += 'KEL feels ANGRY!\r\n';
+    text += 'jan KELI li pilin SELI!\r\n';
     text += 'AUBREY feels ENRAGED!!';
    }
    else if(AUBREY.isStateAffected(15) && KEL.isStateAffected(15)) {text += 'KEL and AUBREY feel ENRAGED!!';}
@@ -432,11 +432,11 @@ if (mpDam > 0) {
 
   //KEL//
     case 'ANNOY':  // ANNOY
-      text = user.name() + ' annoys ' + target.name() + '!\r\n';
+      text = 'jan ' + user.name() + ' li toki ike ' + target.name() + '!\r\n';
       if(!target._noEffectMessage) {
-        if(target.isStateAffected(14)) {text += target.name() + ' feels ANGRY!';}
-        else if(target.isStateAffected(15)) {text += target.name() + ' feels ENRAGED!!';}
-        else if(target.isStateAffected(16)) {text += target.name() + ' feels FURIOUS!!!';}
+        if(target.isStateAffected(14)) {text += 'ijo ' + target.name() + ' li pilin SELI!';}
+        else if(target.isStateAffected(15)) {text += 'ijo ' + target.name() + ' li pilin UTALA!!';}
+        else if(target.isStateAffected(16)) {text += 'ijo ' + target.name() + ' li pilin MOLI!!!';} //moli is def subject to change, there's gotta be something better
       }
       else {text += parseNoEffectEmotion(target.name(), "ANGRIER!")}
       break;
@@ -1454,7 +1454,7 @@ if (mpDam > 0) {
       break;
 
     case 'MAFIA NOTHING': //MAFIA NOTHING
-      text = user.name() + ' cracks his knuckles.';
+      text = 'ijo ' + user.name() + ' li kalama pakala kepeken luka';
       break;
 
     case 'MAFIA ROUGH UP': //MAFIA ROUGH UP

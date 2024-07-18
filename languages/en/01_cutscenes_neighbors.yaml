@@ -76,7 +76,7 @@ message_12:
 message_13:
     faceset: MainCharacters_DreamWorld
     faceindex: 16
-    text: \keltoki, \n[1]. tenpo weka la mi jo e ni. o lukin!
+    text: \keltoki, jan \n[1]. tenpo weka la mi jo e ni. o lukin!
 
 message_14:
     faceset: MainCharacters_DreamWorld
@@ -86,7 +86,7 @@ message_14:
 message_15:
     faceset: MainCharacters_DreamWorld
     faceindex: 35
-    text: kiwen lili li lukin e sina tan poki \n[3].
+    text: kiwen lili li lukin e sina tan poki jan \n[3].
 
 message_16:
     faceset: MainCharacters_DreamWorld
@@ -110,12 +110,12 @@ message_17:
 message_18:
     faceset: MainCharacters_DreamWorld
     faceindex: 37
-    text: \her\tenpo weka la sina pali seme, jan \n[1]? tepno weka la mi mute li awen tan sina!
+    text: \her\tenpo weka la sina pali seme, jan \n[1]? tenpo weka la mi mute li awen tan sina!
 
 message_19:
     faceset: MainCharacters_DreamWorld
     faceindex: 40
-    text: \her\tenpo mute la \n[3] en \n[2] li utala.\!<br>tenpo mute la sina sona e ona li wile pali ala, taso, ona li jo mute e wawa.
+    text: \her\tenpo mute la jan \n[3] en jan \n[2] li utala.\!<br>tenpo mute la sina sona e ona li wile pali ala, taso, ona li jo mute e wawa.
 
 # =========================================================================================
 # Cutscene: STUFFED TOY
@@ -204,7 +204,7 @@ message_38:
 message_39:
     faceset: MainCharacters_DreamWorld
     faceindex: 37
-    text: \hertoki, jan \n[1] o! ni li pona a.\! ona tu li.
+    text: \hertoki, jan \n[1] o! ni li pona a.\! tenpo ale la ona tu li utala.
 
 message_43:
     faceset: MainCharacters_DreamWorld
@@ -219,7 +219,7 @@ message_40:
 message_41:
     faceset: MainCharacters_DreamWorld
     faceindex: 37
-    text: \herlon. nasa li lon ala!\! We'll be here.
+    text: \herlon. nasa li lon ala!\! mi li lon nasa.
 
 message_42:
     faceset: MainCharacters_DreamWorld
