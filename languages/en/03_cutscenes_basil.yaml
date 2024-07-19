@@ -9,7 +9,9 @@
 message_0:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \Com[2]\SINV[1]Say cheese!\SINV[0]\bas
+      text: \Com[2]\SINV[1]o sinpin pona!\SINV[0]\bas
+      #there isn't any tʃ(ch) sound so idk what we're gonna do here.
+      #maybe "o sinpin pona?" we can change it :p
 
 #Screen flashes white
 #BASIL takes a photo of the party

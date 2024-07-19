@@ -9,41 +9,41 @@
 message_0:
       faceset: MainCharacters_DreamWorld
       faceindex: 19
-      text: \kelWhoa!\! What's that ugly plant creature?
+      text: \keloaaa!\! seme li ijo ni?
 
 message_1:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: \aubDon't you know, KEL?\! That's a SPROUT MOLE!
+      text: \aubsina sona ala, jan KEL o?\! ni li KASI NENA!
 
 message_2:
       faceset: MainCharacters_DreamWorld
       faceindex: 0
-      text: \aubSPROUT MOLES are highly intelligent creatures, but become dangerously vicious when they are lost.
+      text: \aubKASI NENA li jo mute e sona, taso, ona li wile utala mute la ona li ken tawa ala tomo ona.
 
 message_3:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basHey, MR. SPROUT MOLE! Are you doing okay there?
+      text: \bastoki, KASI NENA o! sina pilin pona ala pona?
 
 #SPROUT MOLE does Question Mark
 
 message_4:
       faceset: MainCharacter_Basil
       faceindex: 0
-      text: \basA-Are you lost by any chance?
+      text: \bassina ken tawa ala tawa tomo sina
 
 #SPROUT MOLE turns to PARTY. then vibrates. Then runs toward party.
 
 message_5:
       faceset: MainCharacters_DreamWorld
       faceindex: 46
-      text: \herUh-oh...\! I guess we got our answer!
+      text: \herike a...\! tenpo ni la mi sona!
 
 message_6:
       faceset: MainCharacters_DreamWorld
       faceindex: 46
-      text: \her\Com[2]Watch out, everyone! He's heading right toward us!
+      text: \her\Com[2]o lukin, jan ale o! ona li tawa mi kepeken tenpo lili!
 
 #========================================================================================================================
 #UGLY PLANT CREATE - AFTER BATTLE
@@ -52,17 +52,18 @@ message_6:
 message_10:
       faceset: MainCharacter_Basil
       faceindex: 6
-      text: \basPhew...\! Is everyone okay?
+      text: \basPwew...\! jan ale li pona ala pona?
 
 message_11:
       faceset: MainCharacter_Basil
       faceindex: 0
-      text: \basSorry...\! Lately there've been a lot of LOST SPROUT MOLES around here.\! I don't really like to fight, but I'm sure everything will be okay now that you're here.
+      text: \basmi pilin ike...\! tenpo ni la, KASI NENA mute li lon ma ni.\!mi pilin pona ala la mi utala, taso, sina lon ni la ale li pona.
 
 message_12:
       faceset: MainCharacters_DreamWorld
       faceindex: 1
       text: \aubDon't worry, BASIL!\! We'll take care of things from here!
+      #o pali nasa ala, jan PASI o!\! 
 
 #========================================================================================================================
 #BESTIARY
