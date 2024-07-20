@@ -5,35 +5,42 @@
 #Trigger: Entering SBF's House with SWEETHEART MIXTAPE.
 
 message_0:
-      text: Well, I'll be! You kids really did it!\! It's a little dirty, but that's our missing \c[4]SPECIAL MIXTAPE\c[0] for sure!\!<br>Thanks a lot, my guy.\spg
+      # text: Well, I'll be! You kids really did it!\! It's a little dirty, but that's our missing \c[4]SPECIAL MIXTAPE\c[0] for sure!\!<br>Thanks a lot, my guy.\spg
+      text: pona a! sina ale li jo e ona!\! ona li jaki lili, taso, lon la, ona li \c[4]POKI KALAMA PONA\c[0]!\!<br>sina pona, jan pona mi o.\spg
 
 message_1:
-      text: With this, we'll finally be able to wake up SPACE BOYFRIEND!\spg
+      # text: With this, we'll finally be able to wake up SPACE BOYFRIEND!\spg
+      text: kepeken ona la, mi ken pini e lape pi jan OLIN SEWI!\spg
 
 #KEL walks up to you.
 
 message_2:
-      text: KEL reached into your POCKET <br>and took out the \c[4]SPECIAL MIXTAPE\c[0].
+      # text: KEL reached into your POCKET <br>and took out the \c[4]SPECIAL MIXTAPE\c[0].
+      text: jan KELI li lukin lon poki sina,<br>li kama jo e \c[4]POKI KALAMA PONA\c[0].
 
 message_3:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: Actually, about that...\! We might have some bad news.\!<br>We heard a rumor that SPACE BOYFRIEND and SWEETHEART...\! Well...\! That they broke up.\aub
+      # text: Actually, about that...\! We might have some bad news.\!<br>We heard a rumor that SPACE BOYFRIEND and SWEETHEART...\! Well...\! That they broke up.\aub
+      text: a, o awen...\! mi jo e sona ike.\!<br>mi kute e ni:\ jan OLIN SUWI li...\! n...\! weka tan jan OLIN SEWI.\aub 
 
 #KEL slowly walks to SPACE BOYFRIEND.
 
 message_4:
-      text: \Com[2]W-What? Did they really?\!<br>For real this time?\!<br>Oh no...\! But that would mean...\spg
+      # text: \Com[2]W-What? Did they really?\!<br>For real this time?\!<br>Oh no...\! But that would mean...\spg
+      text: \Com[2]s-seme? ni li lon ala lon?\!<br>ike a...\! ni la...\spg
 
 message_5:
-      text: That there's no point in playing him the \c[4]SPECIAL MIXTAPE\c[0] anymore...\! All hope...\! is lost.\spg
+      # text: That there's no point in playing him the \c[4]SPECIAL MIXTAPE\c[0] anymore...\! All hope...\! is lost.\spg
+      text: mi wile ala kepeken \c[4]POKI KALAMA PONA\c[0] tan ni...\! wawa ale...\! li weka.\spg
 
 #KEL jumps.
 
 message_6:
       faceset: MainCharacters_DreamWorld
       faceindex: 18
-      text: \Com[2]Hey, SPACE BOYFRIEND! We got your \c[4]SPECIAL MIXTAPE\c[0] back!\kel
+      # text: \Com[2]Hey, SPACE BOYFRIEND! We got your \c[4]SPECIAL MIXTAPE\c[0] back!\kel
+      text: \Com[2]jan OLIN SEWI o! mi jo e \c[4]POKA KALAMA PONA\c[0] sina!\kel
 
 message_7:
       faceset: MainCharacters_DreamWorld
@@ -43,65 +50,77 @@ message_7:
 message_8:
       faceset: MainCharacters_DreamWorld
       faceindex: 26
-      text: Hmph... You can at least thank us.\kel
+      # text: Hmph... You can at least thank us.\kel
+      text: n. sina ken toki tawa mi.\kel
 
 #AUBREY jumps.
 
 message_9:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: Oh, don't be so down, SPACE PIRATE GUY! It's just a rumor...\!<br>and even if it is true, it's not the end of the world.\aub
+      # text: Oh, don't be so down, SPACE PIRATE GUY! It's just a rumor...\!<br>and even if it is true, it's not the end of the world.\aub
+      text: a, o pilin pona, jan LANPAN SEWI! ona li ken lon ala...\!<br>ona li suli ala.\aub
 
 message_10:
       faceset: MainCharacters_DreamWorld
       faceindex: 1
-      text: People get over breakups all the time!\! <br>I'm sure SPACE BOYFRIEND will be back on his feet soon.\!<br>He just needs some time to readjust.\aub
+      # text: People get over breakups all the time!\! <br>I'm sure SPACE BOYFRIEND will be back on his feet soon.\!<br>He just needs some time to readjust.\aub
+      text: jan li weka lon tenpo mute!\! <br>mi sona e ni:\ jan OLIN SEWI li kama wawa.\!<br>ona li wile e tenpo taso.\aub
 
 #KEL slowly walks to cassette player.
 
 message_11:
       faceset: MainCharacters_DreamWorld
       faceindex: 19
-      text: Oh, I know! I'll blast this \c[4]SPECIAL MIXTAPE\c[0] on his boombox.\!<br>He's gotta wake up to that!\kel
+      # text: Oh, I know! I'll blast this \c[4]SPECIAL MIXTAPE\c[0] on his boombox.\!<br>He's gotta wake up to that!\kel
+      text: a, mi sona! mi kepeken \c[4]POKI KALAMA PONA\c[0] lon ilo kalama ona.\!<br>lape ona li pinin tan ni!\kel
 
 #HERO jumps.
 
 message_12:
       faceset: MainCharacters_DreamWorld
       faceindex: 40
-      text: In that case, we should probably get rid of that \c[4]SPECIAL MIXTAPE\c[0] after all.\! Listening to the songs might be way too emotional for him.\her
+      # text: In that case, we should probably get rid of that \c[4]SPECIAL MIXTAPE\c[0] after all.\! Listening to the songs might be way too emotional for him.\her
+      text: tan ni la, mi o weka e \c[4]POKI KALAMA PONA\c[0].\! ona li kute e ni la, pilin li ken kama.\her
 
 message_13:
       faceset: MainCharacters_DreamWorld
       faceindex: 36
-      text: Give it here, OMORI. I'll keep it safe.\her
+      # text: Give it here, OMORI. I'll keep it safe.\her
+      text: o pana, jan OMOLI. mi awen e ona.\her
 
 message_14:
-      text: HERO reached into your POCKET.
+      # text: HERO reached into your POCKET.
+      # weird translation honestly
+      text: luka pi jan WAWA li lon poki sina. 
 
 #HERO is confused.
 
 message_15:
       faceset: MainCharacters_DreamWorld
       faceindex: 40
-      text: Huh? Where is it?\her
+      # text: Huh? Where is it?\her
+      text: seme? ona li lon seme?\her
 
 #KEL opens cassette player.
 
 message_16:
       faceset: MainCharacters_DreamWorld
       faceindex: 46
-      text: \{KEL!! WHAT ARE YOU DOING!?\her\}
+      # text: \{KEL!! WHAT ARE YOU DOING!?\her\}
+      text: \{JAN KELI O!! SINA SEME?!\HER\}
 
 message_17:
       faceset: MainCharacters_DreamWorld
       faceindex: 46
-      text: \Com[2]\quake[1]\{NOOOO\{OOOO\{OOOO\{OOOOOOOOO!!!\SINV[0]\her
+      # text: \Com[2]\quake[1]\{NOOOO\{OOOO\{OOOO\{OOOOOOOOO!!!\SINV[0]\her
+      text: \Com[2]\quake[1]\{ALAAA\{AAAA\{AAAA\{AAAAAAAAA!!!\SINV[0]\her
 
 message_18:
       faceset: MainCharacters_DreamWorld
       faceindex: 18
-      text: \SINV[1]\{WAKEY-WAKEY, SPACE BOYFRIEND!!\kel\}\}\SINV[0]
+      # text: \SINV[1]\{WAKEY-WAKEY, SPACE BOYFRIEND!!\kel\}\}\SINV[0]
+      text: \SINV[1]\{O LAPE ALA, JAN OLIN SEWI O!!\kel\}\}\SINV[0]
 
 #KEL puts the SWEETHEART MIXTAPE in the cassette player.
 #SWEETHEART MIXTAPE song plays.
@@ -109,108 +128,140 @@ message_18:
 message_19:
       faceset: MainCharacters_DreamWorld
       faceindex: 47
-      text: Uh-oh...\! I've got a bad feeling about this...\her
+      # text: Uh-oh...\! I've got a bad feeling about this...\her
+      text: ike...\! mi pilin ike tan ni...\her
 
+#this could def be more impactful?
 message_20:
-      text: \Com[2]\quake[1]What...\| \Com[2]is...\| \Com[2]that...\sbf\quake[0]
+      # text: \Com[2]\quake[1]What...\| \Com[2]is...\| \Com[2]that...\sbf\quake[0]
+      text: \Com[2]\quake[1]kalama...\| \Com[2]ni...\| \Com[2]li...\sbf\quake[0]
 
 message_21:
-      text: \Com[2]\quake[1]\{\{INFERNAL...\sbf\quake[0]
+      # text: \Com[2]\quake[1]\{\{INFERNAL...\sbf\quake[0]
+      text: \Com[2]\quake[1]\{\{TAN...\sbf\quake[0]
 
 message_22:
-      text: \Com[2]\quake[1]\{\{\{RACKET!?!?\sbf\quake[0]
+      # text: \Com[2]\quake[1]\{\{\{RACKET!?!?\sbf\quake[0]
+      text: \Com[2]\quake[1]\{\{\{SEME!?!?\sbf\quake[0]
 
 #Screen shakes. SPACE PIRATE guy flies O.S. at an alarming speed.
 
 message_23:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: Darnit, KEL! Look what you did!\aub
+      # text: Darnit, KEL! Look what you did!\aub
+      text: pakala, jan KELI o! o lukin e pali sina!\aub
 
 message_24:
-      text: \Com[2]\{\quake[1]FWAHAHA\{HAHA\{HAHA!!\sbf\sinv[0]
+      # text: \Com[2]\{\quake[1]FWAHAHA\{HAHA\{HAHA!!\sbf\sinv[0]
+      text: \Com[2]\{\quake[1]WA A A\{A A\{A A!!\sbf\sinv[0]
 
 message_25:
-      text: \Com[2]\quake[1]\{FEAR ME FOR I HAVE AWAKENED!!\sbf\quake[0]
+      # text: \Com[2]\quake[1]\{FEAR ME FOR I HAVE AWAKENED!!\sbf\quake[0]
+      text: \Com[2]\quake[1]\{O PILIN IKE, MI KAMA WAWA!!\sbf\quake[0]
 
 message_26:
-      text: ...\! Hmph...\! <br>One second.\sbf
+      # text: ...\! Hmph...\! <br>One second.\sbf
+      text: ...\! n...\! <br>mi wile ni.\sbf
 
 #SPACE BOYFRIEND teleports to front of cassette player and changes the song to pre-battle music.
 
 message_27:
-      text: Hmhmhmhm...\|<br>\Com[2]\{\quake[1]FWAHAHAH\{AHAHAHA!!\sbf\sinv[0]
+      # text: Hmhmhmhm...\|<br>\Com[2]\{\quake[1]FWAHAHAH\{AHAHAHA!!\sbf\sinv[0]
+      text: n n n n...\|<br>\Com[2]\{\quake[1]WA A A A A\{A A A A A!!\sbf\sinv[0]
 
 message_28:
-      text: Much better!\! Now, where was I...?\! Ah, yes!\sbf
+      # text: Much better!\! Now, where was I...?\! Ah, yes!\sbf
+      text: pona mute a!\! a, mi o seme...?\! a, lon!\sbf
 
 message_29:
-      text: \Com[2]Foolish children!\!<br>I must thank you for bringing me out of that pathetic state.\!<br>I grew tired of lying in bed, pretending to be sick.\sbf
+      # text: \Com[2]Foolish children!\!<br>I must thank you for bringing me out of that pathetic state.\!<br>I grew tired of lying in bed, pretending to be sick.\sbf
+      text: \Com[2]jan lili o, sina sona ala!\!<br>mi pilin pona tan ni:\ sina wawa e mi.\!<br>mi wile ala lon supa lape, mi wile ala pilin ike.\sbf
 
 message_30:
-      text: Like I always say...\! <br>\{\quake[1]FEELINGS ARE FOR LOSERS!!\sbf\}
+      # text: Like I always say...\! <br>\{\quake[1]FEELINGS ARE FOR LOSERS!!\sbf\}
+      text: mi toki mute e ni:\! <br>\{\quake[1]JAN IKE TASO LI PILIN!!\sbf\}
 
 message_31:
-      text: That wench, SWEETHEART...\!<br>She's going to pay for leaving me!\sbf
+      # text: That wench, SWEETHEART...\!<br>She's going to pay for leaving me!\sbf
+      text: jan OLIN SUWI... jan ike...\!<br>mi o utala e ona tan weka sina!\sbf
 
 message_32:
-      text: I did everything for her! I gave everything to her!\!<br>\{EVERYTHING! YOU HEAR ME!?!?\sbf\}
+      # text: I did everything for her! I gave everything to her!\!<br>\{EVERYTHING! YOU HEAR ME!?!?\sbf\}
+      text: mi pali ale tan sina! mi pana ale tawa sina!\!<br>\{ALE! SINA SONA ALA SONA!?!?\sbf\}
 
 message_33:
-      text: That ungrateful, little...\! Aughhhhhh... \sbf
+      # text: That ungrateful, little...\! Aughhhhhh... \sbf
+      text: meli... ike...\! aaaa.... \sbf
 
 message_34:
-      text: \quake[1]AAAAAU\Com[2]\{UUUGGGGG\Com[2]\{GGGGGHHHHH\Com[2]\{HHHHH!!!\sbf\quake[0]
+      # text: \quake[1]AAAAAU\Com[2]\{UUUGGGGG\Com[2]\{GGGGGHHHHH\Com[2]\{HHHHH!!!\sbf\quake[0]
+      text: \quake[1]AAAAA\Com[2]\{AAAAAAAAAA\Com[2]\{AAAAAAAAAAA\Com[2]\{AAAAA!!!\sbf\quake[0]
 
 message_35:
-      text: \quake[1]\{JUST FORGET IT!!\! FORGET EVERYTHING!!\sbf\quake[0]
+      # text: \quake[1]\{JUST FORGET IT!!\! FORGET EVERYTHING!!\sbf\quake[0]
+      text: \quake[1]\{O TOKI ALA E NI!!\! O TOKI ALA!!\sbf\quake[0]
 
 message_37:
-      text: I'm going to find SWEETHEART...\sbf
+      # text: I'm going to find SWEETHEART...\sbf
+      text: mi lukin e jan OLIN SUWI...\sbf
 
 message_38:
-      text: \{AND I'M GOING TO MAKE HER PAY!!\sbf\quake[0]
+      # text: \{AND I'M GOING TO MAKE HER PAY!!\sbf\quake[0]
+      text: \{ona o pilin ike tan mi!!\sbf\quake[0]
 
 message_39:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: Sorry, but we can't let you do that, SPACE BOYFRIEND...\!<br>Or should I say...\aub
+      # text: Sorry, but we can't let you do that, SPACE BOYFRIEND...\!<br>Or should I say...\aub
+      text: mi wile ala e ni, jan OLIN SEWI o...\!<br>anu... mi o toki e...\aub
 
 message_40:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: \{\{\Com[2]SPACE EX-BOYFRIEND!!\aub
+      # text: \{\{\Com[2]SPACE EX-BOYFRIEND!!\aub\
+      text: \{\{\Com[2]jan ALA-N SEWI!!\aub\
 
 message_41:
-      text: Interesting.\! You want to challenge me?\!<br>\{DO YOU EVEN KNOW WHO I AM!?\sxbf
+      # text: Interesting.\! You want to challenge me?\!<br>\{DO YOU EVEN KNOW WHO I AM!?\sxbf
+      text: musi.\! sina wile utala e mi?\!<br>\{sina sona ala sona e mi!?\sxbf
 
 message_42:
-      text: \{I AM CAPTAIN OF THE SPACE PIRATES!\sxbf
+      # text: \{I AM CAPTAIN OF THE SPACE PIRATES!\sxbf
+      text: \{mi lawa pi jan lanpan sewi!\sxbf
 
 message_43:
-      text: I control all the planets in the Solar System and have the ability to fly through space at will!\sxbf
+      # text: I control all the planets in the Solar System and have the ability to fly through space at will!\sxbf
+      text: mi lawa e mun ale! mi ken waso lon sewi!\sxbf
 
 message_44:
-      text: \Com[2]The power of the entire universe is at my command!\sxbf
+      # text: \Com[2]The power of the entire universe is at my command!\sxbf
+      text: \Com[2]mi jo e wawa ale!\sxbf
 
 message_45:
       faceset: MainCharacters_DreamWorld
       faceindex: 30
-      text: Blah, blah, blah!\! Talk all you want... We're not scared of you!\kel
+      # text: Blah, blah, blah!\! Talk all you want... We're not scared of you!\kel
+      text: mu, mu, mu!\! sina ken toki mute, taso mi pilin monsuta ala!\kel
 
 message_46:
       faceset: MainCharacters_DreamWorld
       faceindex: 43
-      text: If you plan on going around and causing trouble,<br>you're going to have to get through us first!\her
+      # text: If you plan on going around and causing trouble,<br>you're going to have to get through us first!\her
+      text: sina wile pali e ike la,<br>sina o utala e mi mute!\her
 
 message_47:
+      # hardest line to translate in the whole game probably
       text: ...\sxbf
 
 message_48:
-      text: Hmph...\! So that's how it's going to be.\!<br>If you still insist on stopping me...\!<br>I'm afraid we'll just have to settle this the hard way.\sxbf
+      # text: Hmph...\! So that's how it's going to be.\!<br>If you still insist on stopping me...\!<br>I'm afraid we'll just have to settle this the hard way.\sxbf
+      text: nnn...\! sina wile ni. sina wile pini e mi.\!<br>ni la... utala li kama lon.\sxbf
 
 message_49:
-      text: \{\quake[1]I'LL TAKE ALL OF YOU ON!!\quake[0]\sxbf
+      # text: \{\quake[1]I'LL TAKE ALL OF YOU ON!!\quake[0]\sxbf
+      text: \{\quake[1]MI KEN ANPE E SINA ALE!!\quake[0]\sxbf
 
 message_50:
-      text: \{\{\quake[1]FIGHT ME, EARTHLY SCUM!!\quake[0]\sxbf
+      # text: \{\{\quake[1]FIGHT ME, EARTHLY SCUM!!\quake[0]\sxbf
+      text: \{\{\quake[1]O UTALA E ME, JAN MA JAKI O!!\quake[0]\sxbf
