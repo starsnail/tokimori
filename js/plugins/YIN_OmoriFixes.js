@@ -167,7 +167,7 @@ Game_System.prototype.initialize = function() {
         "juggalo","kaffir","kafir","kigger","killer","kink","kkk","kock","koon","kotex","krap","kum","kunt",
         "lesbian","lesbo","loli","lsd","lube","lynch","mammy","meth","mick","milf","molest","mom","mong","moron",
         "muff","mulatto","muncher","munt","murder","muslim","nazi","negress ","negro","n1g","nlg","nig","nip",
-        "nlgger","noonan","nooner","nuke","nut","oral","orga","orgies","orgy","oriental","paddy","pakeha","paki",
+        "nlgger","noonan","nooner","nuke","nut","oral","orga","orgies","orgy","oriental","paddy","pakeha","pakala","paki",
         "pansies","pansy","peni5","pen15","penis","perv","phuc","phuk","phuq","pi55","pimp","piss","playboy","pocha",
         "pocho","pohm","polack","poon","poop","porn","pu55i","pu55y","pube","puss","pygmy","quashie","queef","queer",
         "quim","racist","raghead","randy","rape","rapist","rectum","redneck","redskin","reefer","reestie","reject",
@@ -179,7 +179,7 @@ Game_System.prototype.initialize = function() {
         "whigger","whiskey","whitey","whore","wigger","willie","willy","wog","wop","wtf","wuss","xtc","xxx","yank",
         "yid","zigabo",
         // Names
-        "aubrey","basil","bundy","gacy","hector","hero","hitler","jawsum","jinping","kel","kimjong","little","mari",
+        "aubrey","apewi","basil","pasi","bundy","gacy","hector","hero","wawa","hitler","jawsum","jinping","kel","keli","kimjong","little","mari","mali",
         "oj","osama","pluto","polly","putin","ripper","rococo","stalin","trump","zodiac",
         // Foreign Language Bad Words
         "puto","puta","cuck","mierda","pendejo","Nigga","Nibba","trap","perra","faggot","dilldoe","blacky","pniss",

@@ -1533,26 +1533,36 @@ message_295:
 # ============Tutorial SPROUT MOLES
 # ANGRY MOLE
 message_296:
+#   text: >
+#    \>HERO: \<Ah! It looks like this SPROUT MOLE is ANGRY! \!Like us, SPROUT MOLES also feel EMOTIONS.
    text: >
-    \>HERO: \<Ah! It looks like this SPROUT MOLE is ANGRY! \!Like us, SPROUT MOLES also feel EMOTIONS.
+    \>jan WAWA: \<A! KASI NENA ni li lukin pilin SELI a! \!sama mi la, KASI NENA li pilin e PILIN.
 
 message_297:
+#   text: >
+#    \>HERO: \<Since this SPROUT MOLE is ANGRY, its ATTACK is higher.
    text: >
-    \>HERO: \<Since this SPROUT MOLE is ANGRY, its ATTACK is higher.
+    \>jan WAWA: \<KASI NENA ni li pilin seli la, ona li UTALA suli.
 
 message_298:
+#   text: >
+#    \>HERO: \<But on the other hand, it lowers its DEFENSE!
    text: >
-    \>HERO: \<But on the other hand, it lowers its DEFENSE!
+    \>jan WAWA: \<taso, ona li pilin SELI la, WAWA AWEN li lili a!
 
 
 message_299:
+#   text: >
+#    \>AUBREY: \<So what you're saying is now is the perfect time to strike! \!Come on, OMORI!\! Let's do this!
    text: >
-    \>AUBREY: \<So what you're saying is now is the perfect time to strike! \!Come on, OMORI!\! Let's do this!
+    \>jan APEWI: \<sina toki e ni: tenpo ni la mi ken utala suli a! \!o kama, jan OMOLI o!\! o pali e ni a!
 
 # HAPPY MOLE
 message_300:
+#   text: >
+#    \>HERO: \<Oh! \!I see... \!This SPROUT MOLE is HAPPY!
    text: >
-    \>HERO: \<Oh! \!I see... \!This SPROUT MOLE is HAPPY!
+    \>HERO: \<a! \!mi sona... \!KASI NENA ni li pilin PONA!
 
 message_301:
    text: >

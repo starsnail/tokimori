@@ -192,10 +192,10 @@ message_69:
 # -----------------------------------------------
 
 message_100:
-    text: jan %1 en jan pona li pali seme?
+    text: '%1 en jan pona li pali seme?'
 
 message_101:
-    text: jan \n[8] li pali seme?
+    text: \n[8] li pali seme?
 
 message_102:
     text: What will %1 and %2 do?
@@ -204,7 +204,7 @@ message_103:
     text: What will \n[8] and friends do?
 
 message_104:
-    text: jan %1 li pali seme?
+    text: '%1 li pali seme?'
 
 message_105:
     text: anu e jan seme?

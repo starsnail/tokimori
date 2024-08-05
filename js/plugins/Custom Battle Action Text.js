@@ -106,12 +106,12 @@ if (mpDam > 0) {
     break;
 
   case 'ATTACK': // ATTACK
-    text = 'jan ' + user.name() + ' li utala e ' + target.name() + '!\r\n';
+    text = user.name() + ' li utala e ' + target.name() + '!\r\n';
     text += hpDamageText;
     break;
 
   case 'MULTIHIT':
-    text = 'jan' + user.name() + " li utala mute!\r\n";
+    text = 'user.name()' + " li utala mute!\r\n";
     break;
 
   case 'OBSERVE': // OBSERVE
@@ -381,7 +381,7 @@ if (mpDam > 0) {
 
   case 'LOOK KEL 1':  // Look at Kel 1
     text = 'KEL eggs AUBREY on!\r\n';
-    text += 'jan ' + target.name() + " li pilin SELI!";
+    text += target.name() + " li pilin SELI!";
     break;
 
   case 'LOOK KEL 2': // Look at Kel 2
@@ -432,7 +432,7 @@ if (mpDam > 0) {
 
   //KEL//
     case 'ANNOY':  // ANNOY
-      text = 'jan ' + user.name() + ' li toki ike ' + target.name() + '!\r\n';
+      text = user.name() + ' li toki ike ' + target.name() + '!\r\n';
       if(!target._noEffectMessage) {
         if(target.isStateAffected(14)) {text += 'ijo ' + target.name() + ' li pilin SELI!';}
         else if(target.isStateAffected(15)) {text += 'ijo ' + target.name() + ' li pilin UTALA!!';}
@@ -533,7 +533,7 @@ if (mpDam > 0) {
       break;
 
     case 'PASS OMORI':  // KEL PASS OMORI
-      text = 'OMORI wasn\'t looking and gets bopped!\r\n';
+      text = 'jan OMOLI li lukin ala la, ona li utala!\r\n';
       text += 'jan OMOLI li pakala wan!';
       break;
 

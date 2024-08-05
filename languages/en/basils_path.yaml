@@ -14,7 +14,7 @@ message_0:
 message_1:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: \aubsina sona ala, jan KEL o?\! ni li KASI NENA!
+      text: \aubsina sona ala anu seme, jan KEL o?\! ni li KASI NENA!
 
 message_2:
       faceset: MainCharacters_DreamWorld
@@ -97,29 +97,33 @@ message_18:
 message_20:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basCome over here, guys! I want to show you all something.
+      #text: \basCome over here, guys! I want to show you all something.
 
 message_21:
       faceset: MainCharacter_Basil
       faceindex: 2
-      text: \basThese are sunflowers.\! They're called that because they always face towards the sun.
+      #text: \basThese are sunflowers.\! They're called that because they always face towards the sun.
+      text: \basni li kasi suno.\! nimi ona li tan ona li lukin tawa suno.
 
 message_22:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basThat's how I want to be like...\! someone who always sees the bright side of things.
+      #text: \basThat's how I want to be like...\! someone who always sees the bright side of things.
+      text: \basmi wile pali sama ni...\! jan li lukin e poka pi suno kepeken tenpo ale.
 
 #LILY
 
 message_23:
       faceset: MainCharacter_Basil
       faceindex: 0
-      text: \basThese flowers are called lily of the valley.\! It's said that they're able to ward off evil spirits and help people see a brighter future...
+      #text: \basThese flowers are called lily of the valley.\! It's said that they're able to ward off evil spirits and help people see a brighter future...
+      text: nimi pi kasi ni li lili pi ma supa.\! ona li weka e jan kon ike, kin, ona li tawa e jan mute tawa tenpo kama suno...
 
 message_24:
       faceset: MainCharacter_Basil
       faceindex: 1
-      text: \basI guess that's why they remind me of MARI!\!<br>I can always count on her to help me stay positive!
+      #text: \basI guess that's why they remind me of MARI!\!<br>I can always count on her to help me stay positive!
+      text: \bastan ni la mi o sona e jan MALI a!\!<br>mi sona e ona li weka e pilin ike mi a!
 
 #========================================================================================================================
 #BATTLE TUTORIAL - ANGRY
@@ -130,12 +134,14 @@ message_24:
 message_30:
       faceset: MainCharacter_Basil
       faceindex: 3
-      text: \basOh, no! It's another LOST SPROUT MOLE!
+      #text: \basOh, no! It's another LOST SPROUT MOLE!
+      text: \basike a! ni li 
 
 message_31:
       faceset: MainCharacter_Basil
       faceindex: 3
-      text: \bas\Com[2]Please, MR. SPROUT MOLE! Stop that!<br>You're stomping over all the flowers...
+      #text: \bas\Com[2]Please, SPROUT MOLE! Stop that!<br>You're stomping over all the flowers...
+      text: \bas\com[2]KASI NENA a! o pini!<br>sina pakala e kasi lili suwi mi...
 
 #SPROUT MOLE STOMP HARDER
 #SPROUT MOLE RAMS INTO PARTY
