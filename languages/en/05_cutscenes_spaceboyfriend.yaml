@@ -5,79 +5,102 @@
 #Trigger: Go up to Space boyfriends house
 
 message_0:
-      text: \Com[2]Halt, children!\!<br>You are now entering the vicinity of...\spg
+       # text: \Com[2]Halt, children!\!<br>You are now entering the vicinity of...\spg
+      text: \Com[2}jan lili o pini!\!<br>tenpo ni la, sina kama lon ma mi...\spg
 
 message_1:
-      text: The captain of the SPACE PIRATES...\!<br>The master of the SOLAR SYSTEM...\!<br>The prince of the universe...\spg
+      text: mi lawa pi jan LANPAN SEWI...\!<br>mi lawa e MUN ALE...\!<br>mi jan lawa pi ale sewi...\spg 
+      # text: The captain of the SPACE PIRATES...\!<br>The master of the SOLAR SYSTEM...\!<br>The prince of the universe...\spg
 
 message_2:
-      text: The one-and-only CAPT. SPACEB-\! I mean...\! Err...\!<br>You are entering the house of... \!SPACE...\! BOYFRIEND.\spg
+      # text: The one-and-only CAPT. SPACEB-\! I mean...\! Err...\!<br>You are entering the house of... \!SPACE...\! BOYFRIEND.\spg
+      text: mi taso li jan LAW--\! mi pakala...\! nnn....\!<br>sina kama lon ma pi...\!JAN\! OLIN\! SEWI.\spg
 
 message_3:
       faceset: MainCharacters_DreamWorld
       faceindex: 19
-      text: Whoa, the captain of the SPACE PIRATES lives here?\!<br>\{THAT'S AWESOME!!\}\kel
+      # text: Whoa, the captain of the SPACE PIRATES lives here?\!<br>\{THAT'S AWESOME!!\}\kel
+      text: wa, jan lawa pi jan LANPAN SEWI li lon ni...\!<br>\{NI LI EPIKU A!!\}\kel
 
 message_4:
       faceset: MainCharacters_DreamWorld
       faceindex: 18
-      text: I wanna be a SPACE PIRATE too!\kel
+      # text: I wanna be a SPACE PIRATE too!\kel
+      text: mi wile jan LANPAN SEWI kin!\kel
 
 message_5:
-      text: Yeah, well...\! So did I...\! once.\spg
+      # text: Yeah, well...\! So did I...\! once.\spg
+      text: a...\! mi sama sina...\! lon tenpo pini.\spg
 
 message_6:
-      text: SPACE BOYFRIEND doesn't do much these days, so most of the SPACE PIRATES got fed up and left with the main ship.\spg
+      # text: SPACE BOYFRIEND doesn't do much these days, so most of the SPACE PIRATES got fed up and left with the main ship.\spg
+      text: jan OLIN SEWI li pali ala lon tenpo ni. jan LANPAN SEWI mute li pilin ike li kama weka.\! ona li lanpan e tomo tawa suli.\spg
 
 message_7:
-      text: It's just us stragglers here doing all of SPACE BOYFRIEND's chores and whatever.\spg
+      # text: It's just us stragglers here doing all of SPACE BOYFRIEND's chores and whatever.\spg
+      text: mi mute taso li lon, li pali pi jan OLIN SEWI.\spg
 
 message_8:
-      text: Yesterday, me and the guys spent the day cleaning and throwing away all of his trash.\spg
+      # text: Yesterday, me and the guys spent the day cleaning and throwing away all of his trash.\spg
+      text: tenpo suno pini la, mi en jan pona li pona e tomo li weka e ijo jaki ona.
 
 message_9:
-      text: Sigh...\! I didn't leave my old job for this...\!<br>I ain't no babysitter!\spg
-
+      # text: Sigh...\! I didn't leave my old job for this...\!<br>I ain't no babysitter!\spg
+      text: aaa...\! mi weka tan pali pini mi tan ona...\!<br>mi wile ala lon poka pi jan lili!\spg
+      
 message_10:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: Awww, I'm sorry... That sounds awful.\!<br>Maybe we can talk some sense into him.\aub
+      # text: Awww, I'm sorry... That sounds awful.\!<br>Maybe we can talk some sense into him.\aub
+      text: ike a...\!<br>ken la, mi ken toki tawa ona.\aub
 
 message_11:
-      text: Oh, I wouldn't do that if I were you.\! CAPT. SPACEBO-<br>I mean...\! SPACE BOYFRIEND's got two sides to him, you see.\spg
+      # text: Oh, I wouldn't do that if I were you.\! CAPT. SPACEBO-<br>I mean...\! SPACE BOYFRIEND's got two sides to him, you see.\spg
+      text: o ni ala.\! lawa pi jan LAW--\! pakala.\!<br>lawa pi jan OLIN SEWI li tu.\spg
 
 message_12:
       faceset: MainCharacters_DreamWorld
       faceindex: 39
-      text: We should at least try!\! You never know...\!<br>He might know something about how to find BASIL!\her
+      # text: We should at least try!\! You never know...\!<br>He might know something about how to find BASIL!\her
+      text: mi wile ni!\! ale li ken...\!<br>ona li ken sona e nasin pi jan PASI!\her
 
 message_13:
       faceset: MainCharacters_DreamWorld
       faceindex: 17
-      text: Or maybe he knows where to find my pet rock, \c[13]HECTOR\c[0]!\kel
+      # text: Or maybe he knows where to find my pet rock, \c[13]HECTOR\c[0]!\kel
+      text: ken la, ona li sona e nasin pi kiwen mi \c[13]EKUTO\c[0]!\kel
 
 message_14:
       faceset: MainCharacters_DreamWorld
       faceindex: 47
-      text: Yeah s-sure, that too.\her
+      # text: Yeah s-sure, that too.\her
+      text: ken. ni kin.\her
 
 message_15:
       faceset: MainCharacters_DreamWorld
       faceindex: 19
-      text: What are we waiting for? Let's go see him already!\kel
+      # text: What are we waiting for? Let's go see him already!\kel
+      text: sina awen tan seme? mi ale o toki tawa ona!\kel
 
 message_16:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: Sorry about your job, sir.\aub
+      # text: Sorry about your job, sir.\aub
+      # this one's a bit weird. "sorry" in toki pona is always weird.
+      text: ...pini pi pali sina li ike, jan LANPAN SEWI o.
 
 message_17:
       faceset: MainCharacters_DreamWorld
       faceindex: 0
-      text: It'll get better soon, I promise!\aub
-
+      # text: It'll get better soon, I promise!\aub
+      text: ale li kama pona! mi sona e ni!\aub
+      
 message_18:
-      text: Sigh...\! Thank you, little lady.\! I sure hope so.\spg
+      # text: Sigh...\! Thank you, little lady.\! I sure hope so.\spg
+      text: aaa...\! sina pona, meli lili o.\! mi wile ni.\spg
+
+
+# ijo Amali: mi sona ala e ni: nimi anpa ni li len tan seme?
 
 # =========================================================================================
 # Cutscene: Blackletter here
@@ -101,177 +124,218 @@ message_18:
 
 
 message_51:
-      text: Cough...\! Cough, cough...\sbf
+      # text: Cough...\! Cough, cough...\sbf
+      # ken la the asterisks fuck this up. sorry if so.
+      text: *kk*...\! *kk*, *kk*...\sbf
 
 message_52:
       faceset: MainCharacters_DreamWorld
       faceindex: 40
-      text: Uh-oh...\! CAPT. SPACE-\!<br>I mean, SPACE BOYFRIEND doesn't look so good.\her
+      # text: Uh-oh...\! CAPT. SPACE-\!<br>I mean, SPACE BOYFRIEND doesn't look so good.\her
+      text: ike...\! jan LAW--\!<br>a, jan OLIN SEWI li ike lukin.\her
 
 message_53:
       faceset: MainCharacters_DreamWorld
       faceindex: 16
-      text: Don't worry, I'll handle this!\kel
+      # text: Don't worry, I'll handle this!\kel
+      text: o pilin ike ala! mi ken pona e ni!\kel
 
 message_54:
       faceset: MainCharacters_DreamWorld
       faceindex: 17
-      text: \{\{HEY, \Com[2]SPACE BOYFRIEND!!\kel
+      # text: \{\{HEY, \Com[2]SPACE BOYFRIEND!!\kel
+      text: \{\{A! \Cum[2]JAN OLIN SEWI O!!\kel
 
 message_55:
       faceset: MainCharacters_DreamWorld
       faceindex: 18
-      text: \{\{\{WAKE UP!!!\kel
+      # text: \{\{\{WAKE UP!!!\kel
+      text: \{\{\{O LAPE ALA!!!\kel
 
 message_56:
       faceset: MainCharacters_DreamWorld
       faceindex: 43
-      text: KEL!\her
+      # text: KEL!\her
+      text: jan KELI o!
 
 message_57:
       faceset: MainCharacters_DreamWorld
       faceindex: 16
-      text: What?\kel
+      # text: What?\kel
+      text: seme?\kel
 
 message_58:
-      text: \}\quake[1]Cough...\! Ughhh...\! Cough, cough...\! Sigh...\!<br>My... Precious...\! SWEETHEART...\sbf\quake[0]
+      # text: \}\quake[1]Cough...\! Ughhh...\! Cough, cough...\! Sigh...\!<br>My... Precious...\! SWEETHEART...\sbf\quake[0]
+      text: \}\quake[1]*kk*...\! aa...\! *kk*, *kk*...\! aaa...\!<br>jan... OLIN SUWI...\! mi...\sbf\quake[0]
 
 message_59:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: Aww... He sounds so sad.\!<br>There must be some way to help him.\aub
+      # text: Aww... He sounds so sad.\!<br>There must be some way to help him.\aub
+      text: a, ona li pilin ike tawa kute.\!<br>mi wile pona e ona.\aub
 
 message_60:
-      text: \}\quake[1]Cough, cough...\! Cough...\! Oh, my SWEETHEART...\!<br>Where have you run off to now?\sbf\quake[0]
+      # text: \}\quake[1]Cough, cough...\! Cough...\! Oh, my SWEETHEART...\!<br>Where have you run off to now?\sbf\quake[0]
+      text: \}\quake[1]*kk*, *kk*...\! *kk*...\! a, jan OLIN SUWI mi o...\!<br>sina weka... sina lon seme?\sbf\quake[0]
 
 #SPACE PIRATE GUY walks in and walks to SPACE BOYFRIEND.
 
 message_61:
-      text: Oh no... Not again...\!<br>SPACE BOYFRIEND's feeling the heavy blues.\spg
+      # text: Oh no... Not again...\!<br>SPACE BOYFRIEND's feeling the heavy blues.\spg
+      text: ike a...\!<br>jan OLIN SEWI li pilin ike mute.\spg
 
 message_62:
-      text: Here, my guy. This'll cheer you right up.\spg
+      # text: Here, my guy. This'll cheer you right up.\spg
+      text: jan pona mi o, mi pana e ijo pona tawa sina.\spg
 
 #SPACE PIRATE GUY walks to the CASSETTE PLAYER.
 #SPACE PIRATE GUY is surprised and confused.
 
 message_63:
-      text: Huh?\! Why isn't anything playing?\spg
+      # text: Huh?\! Why isn't anything playing?\spg
+      text: s-seme?\! ni li kalama ala tan seme?\spg 
 
 #SPACE PIRATE GUY starts sweating.
 
 message_64:
-      text: Oh no...\! The boombox...\! It's empty!\!<br>He's never gonna wake up now!\! Or even worse...\! <br>He's gonna wake up... angry.\spg
+      # text: Oh no...\! The boombox...\! It's empty!\!<br>He's never gonna wake up now!\! Or even worse...\! <br>He's gonna wake up... angry.\spg
+      text: ike...\! ilo kalama...\! li jo ala e kalama!\!<br>ona li ken ala pini lape!\! anu...\! <br>ona li pini lape... li pilin utala.\spg
 
 message_65:
-      text: Oh, man... Oh, man...\!<br>Where could that \c[4]SPECIAL MIXTAPE\c[0] be?\spg
+      #text: Oh, man... Oh, man...\!<br>Where could that \c[4]SPECIAL MIXTAPE\c[0] be?\spg
+      text: ike... ike a...\!<br>\c[4]POKI KALAMA PONA\c[0] li lon seme?\spg
 
 #SPACE PIRATE guy has an idea.
 
 message_66:
-      text: Someone must have thrown away his \c[4]SPECIAL MIXTAPE\c[0] when we were cleaning!\spg
+      #text: Someone must have thrown away his \c[4]SPECIAL MIXTAPE\c[0] when we were cleaning!\spg
+      # nasa lili
+      text: jan li pona e tomo la, jan li weka e \c[4]POKI KALAMA PONA\c[0]!\spg
 
 message_67:
       faceset: MainCharacters_DreamWorld
       faceindex: 28
-      text: What's the big deal? It's just a cassette, right?\kel
+      # text: What's the big deal? It's just a cassette, right?\kel
+      text: ni li suli tan seme? ona li poki kalama taso... anu seme?\kel
 
 message_68:
-      text: Well, you see...\! Whenever SPACE BOYFRIEND is away from SWEETHEART, he gets really sad and lies in bed all day.\spg
+      #text: Well, you see...\! Whenever SPACE BOYFRIEND is away from SWEETHEART, he gets really sad and lies in bed all day.\spg
+      text: n, sina o sona...\! jan OLIN SEWI li weka tan jan OLIN SUWI la, ona li pilin ike li lon supa lape lon tenpo ale.\spg
 
 message_69:
-      text: The only way to snap him out of it is by playing his \c[4]SPECIAL MIXTAPE\c[0].\! There's only one in the universe like it.\spg
+      # text: The only way to snap him out of it is by playing his \c[4]SPECIAL MIXTAPE\c[0].\! There's only one in the universe like it.\spg
+      # ken la the colon fucks it up. sorry if so!
+      text: sina wile pini ni la, nasin taso li ni: o kepeken \c[4]POKI KALAMA PONA\c[0] ona.\! poki kalama ni taso li suli tawa ona.
 
 message_70:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: Oh, I see...\! SPACE BOYFRIEND isn't sick...\!<br>He's... lovesick...\aub
-
+      # text: Oh, I see...\! SPACE BOYFRIEND isn't sick...\!<br>He's... lovesick...\aub
+      text: a, mi sona...\! sijelo pi jan OLIN SEWI li pilin ike ala...\!<br>*pilin* ona li pilin ike...\aub
+      
 message_71:
-      text: Sigh...\! If SPACE BOYFRIEND stays like this, the once-great coalition of SPACE PIRATES will be lost for eternity...\spg
+      # text: Sigh...\! If SPACE BOYFRIEND stays like this, the once-great coalition of SPACE PIRATES will be lost for eternity...\spg
+      text: a...\! jan OLIN SEWI li awen ni la, suli pi jan LANPAN SEWI li kama weka... lon tenpo ale...\spg
 
 message_72:
       faceset: MainCharacters_DreamWorld
       faceindex: 28
-      text: Oh...\! man...\! That sucks.\kel
+      # text: Oh...\! man...\! That sucks.\kel
+      text: a...\! pakala...\! ni li ike.\kel
 
 message_73:
       faceset: MainCharacters_DreamWorld
       faceindex: 16
-      text: Well... let's go!\kel
+      # text: Well... let's go!\kel
+      text: nnnnn...\! mi tawa!\kel
 
 #KEL attempts to leave.
 
 message_74:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: Wait! Where are you going? We should help him out!\!<br>You should know that it really sucks to lose something important to you.\aub
+      # text: Wait! Where are you going? We should help him out!\!<br>You should know that it really sucks to lose something important to you.\aub
+      text: o pini! sina tawa seme? mi ale o pona e jan!\!<br>sina sona e ni: ijo suli li kama weka la, sina pilin ike.
 
 message_75:
       faceset: MainCharacters_DreamWorld
       faceindex: 30
-      text: Don't you dare bring \c[13]HECTOR\c[0] into this!\kel
+      # text: Don't you dare bring \c[13]HECTOR\c[0] into this!\kel
+      text: o toki ala e \c[13]kiwen EKUTO\c[0]!\kel
 
 message_76:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
-      text: I'm talking about when you stole my \c[13]STUFFED TOY!\c[0]\aub
+      # text: I'm talking about when you stole my \c[13]STUFFED TOY!\c[0]\aub
+      text: mi toki e \c[13]SOWELI KO MUSI\c[0] mi!\aub
 
 message_77:
       faceset: MainCharacters_DreamWorld
       faceindex: 16
-      text: Huh?\! I don't remember anything like that.\kel
+      #text: Huh?\! I don't remember anything like that.\kel
+      text: seme?\! mi sona ala e ni.\kel
 
 message_78:
-      text: There's a \c[11]JUNKYARD\c[0] not far from here, but that place is huge!\! It'll be pretty tough to find anything in there.\spg
+      # text: There's a \c[11]JUNKYARD\c[0] not far from here, but that place is huge!\! It'll be pretty tough to find anything in there.\spg
+      text: \c[11]MA JAKI\c[0] li lon poka. taso, ona li suli!\! ken la, mi ken ala alasa lon ni.
 
 message_79:
-      text: \Com[2]Cough, cough!\sbf
+      # text: \Com[2]Cough, cough!\sbf
+      text: \Com[2]*kk*, *kk*!\sbf
 
 #Everyone turns to the bed
 
 message_80:
-      text: \quake[1]\}Oh... SWEETHEART...\! My perfect goddess...\sbf\quake[0]
+      # text: \quake[1]\}Oh... SWEETHEART...\! My perfect goddess...\sbf\quake[0]
+      text: \quake[1]\}jan OLIN SUWI o...\! sewi mi o...\sbf\quake[0]
 
 message_81:
-      text: \quake[1]\}Cough...\! My sweet...\! jelly-filled... donut...\sbf\quake[0]
+      # text: \quake[1]\}Cough...\! My sweet...\! jelly-filled... donut...\sbf\quake[0]
+      text: \quake[1]\}*kk*...\! pan suwi...\! sike... mi o...\sbf\quake[0]
 
 #AUBREY looks at Space Boyfriend.
 
 message_82:
       faceset: MainCharacters_DreamWorld
       faceindex: 5
-      text: I think he's getting worse...\aub
+      # text: I think he's getting worse...\aub
+      text: ona li kama ike mute tawa mi...\aub
 
 #HERO looks at Aubrey.
 
 message_83:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: What should we do, OMORI? Should we help him?\aub
+      # text: What should we do, OMORI? Should we help him?\aub
+      text: jan OMOLI o, mi ale o seme? mi o pona e ona?\aub
 
 #[Nod (Yes) / Shake (No)]
 
 message_84:
-      text: Thanks, my guys... I really appreciate it.\!<br>Here, take this.\spg
+      # text: Thanks, my guys... I really appreciate it.\!<br>Here, take this.\spg
+      text: sina ale li pona. mi pilin pona.\!<br>n, mi pali.\spg
 
 message_85:
-      text: You got \c[4]JUNKYARD KEY\c[0].
-
+      # text: You got \c[4]JUNKYARD KEY\c[0].
+      text: sina kama jo e \c[4]IJO KEN PI MA JAKI\c[0].
+      
 message_86:
-      text: This key unlocks the \c[11]JUNKYARD\c[0].<br>\!The \c[4]SPECIAL MIXTAPE\c[0] should be somewhere in there.\spg
+      # text: This key unlocks the \c[11]JUNKYARD\c[0].<br>\!The \c[4]SPECIAL MIXTAPE\c[0] should be somewhere in there.\spg
+      text: ni la, sina ken lon \c[11]MA JAKI\c[0].<br>\!mi la \c[4]POKI KALAMA PONA\c[0] o lon ni.\spg 
 
 message_87:
-      text: You can get there through this secret entrance to SPACE BOYFRIEND's backyard.\! Pretty convenient, eh?\spg
+      # text: You can get there through this secret entrance to SPACE BOYFRIEND's backyard.\! Pretty convenient, eh?\spg
+      text: nasin len li lon monsi pi tomo ni. ni li pona! sina sona ala sona?\spg
 
 message_88:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: \aubOh, please \n[1]! I think he really needs our help. \!If you were sick in bed, you'd want someone to help you too, right?
+      # text: \aubOh, please \n[1]! I think he really needs our help. \!If you were sick in bed, you'd want someone to help you too, right?
+      text: \auba, ike \n[1]! ona li wile e wawa.\! sina awen lon supa lape la, sina wile wawa tan jan, anu seme?
 
 message_89:
-      text: I hope the CAPTAIN feels better soon...\spg
-
+      # text: I hope the CAPTAIN feels better soon...\spg
+      text: mi wile e ni: jan LAWA SEWI li pilin pona...\spg
 
 # =========================================================================================
 # Cutscene: Missing Pluto
@@ -279,35 +343,43 @@ message_89:
 
 
 message_110:
-      text: Sigh...\! We've really done it now, dude...\spd
-
+      # text: Sigh...\! We've really done it now, dude...\spd
+      text: a...\! mi ale li ike, jan pona mi o...\spd
+      
 message_111:
-      text: I hope the CAPTAIN won't be too mad when we tell him his favorite planet is missing.\! You know how he gets when he's angry.\spd
+      # text: I hope the CAPTAIN won't be too mad when we tell him his favorite planet is missing.\! You know how he gets when he's angry.\spd
+      text: mi wile e ni: mi toki e weka pi mun PUTO la, jan LAWA SEWI li pilin utala ala.\! sina sona e pilin utala ona.\spd
 
 message_112:
-      text: Buddy, you're not supposed to call him CAPTAIN anymore.\!<br>You have to call him SPACE BOYFRIEND, remember?\spb
+      # text: Buddy, you're not supposed to call him CAPTAIN anymore.\!<br>You have to call him SPACE BOYFRIEND, remember?\spb
+      text: jan pona o, o toki ala e nimi "jan LAWA SEWI".\!<br>sina o pana e nimi "jan OLIN SEWI". sina sona ala sona\spb
 
 message_113:
-      text: Oh yeah, that's right...\spd
+      # text: Oh yeah, that's right...\spd
+      text: a, lon...\spd
 
 message_114:
-      text: Urg... \!\{\quake[1]AAAA\{ARRRRR\{RRRRG!!!\spd\}
+      # text: Urg... \!\{\quake[1]AAAA\{ARRRRR\{RRRRG!!!\spd\}
+      text: a... \!\{\quake[1]AAAAA\{AAAAAAAA\{AAAAAA!!!\spg\}
 
 message_115:
-      text: You know, dude...\! Sometimes I wonder if we're even SPACE PIRATES anymore.\spd
+      # text: You know, dude...\! Sometimes I wonder if we're even SPACE PIRATES anymore.\spd
+      text: nn.. jan pona...\! tenpo ni la, mi jan LANPAN SEWI anu seme?\spd
 
 message_116:
-      text: Ever since that SWEETHEART came along, we haven't done anything cool!\! We should just quit and get real jobs.\spd
+      # text: Ever since that SWEETHEART came along, we haven't done anything cool!\! We should just quit and get real jobs.\spd
+      text: jan OLIN SUWI li kama la, mi ale li epiku ala!\! mi o weka, o kama jo e pali lon.\spd
 
 message_117:
-      text: Don't talk nonsense, buddy!\!<br>What is life for us if not the SPACE PIRATE life?\spb
+      # text: Don't talk nonsense, buddy!\!<br>What is life for us if not the SPACE PIRATE life?\spb
+      text: o toki nasa ala, jan pona mi o!\!<br>mi jan LANPAN SEWI ala la, ale li seme?\spb
 
 message_118:
-      text: I'm sure the CAPTAIN will come to his senses one day and we'll all fly again.\! We just have to believe in him!\spb
-
+      # text: I'm sure the CAPTAIN will come to his senses one day and we'll all fly again.\! We just have to believe in him!\spb
+      text: mi sona e ni: tenpo kama la, jan LAWA SEWI li kama nasa ala. mi ale li ken waso.\! o pilin pona tawa ona!\spb
 message_119:
-      text: Sigh...\! Thanks, dude.\! You're always there when I need you.\spd
-
+      # text: Sigh...\! Thanks, dude.\! You're always there when I need you.\spd
+      text: a...\! sina pona.\! tenpo ale la, mi wile e ni la, sina lon.\spd
 # =========================================================================================
 # Cutscene: Pluto Behind a Tree
 # =========================================================================================
@@ -315,24 +387,28 @@ message_119:
 #BEFORE BATTLE
 
 message_130:
-    text: This guy looks pretty intimidating...\!<br>Do you want to disturb him?
-
+    # text: This guy looks pretty intimidating...\!<br>Do you want to disturb him?
+    text: lukin la, ona li utala li suli...\!<br>sina wile ala wile utala e ona? 
 #BEFORE BATTLE
 
 message_131:
-    text: \who...\! Hm.\! Not bad.
+    # text: \who...\! Hm.\! Not bad.
+    text: \who...\! n.\! ike ala.
 
 # =========================================================================================
 # Misc
 # =========================================================================================
 
 message_150:
-      text: \quake[1]\}Cough...\! cough...\sbf\quake[0]
+      # text: \quake[1]\}Cough...\! cough...\sbf\quake[0]
+      text: \quake[1]\}*kk*...\! *kk*...\sbf\quake[0]
 
 message_160:
       faceset: MainCharacters_DreamWorld
       faceindex: 4
-      text: Hold on, OMORI!\! We should check up on CAPT. SPACE-\!<br>I mean, SPACE BOYFRIEND first.\aub
+      # text: Hold on, OMORI!\! We should check up on CAPT. SPACE-\!<br>I mean, SPACE BOYFRIEND first.\aub
+      text: jan OMOLI o awen!\! sina o toki tawa jan LAWA S--\!<br>nn... jan OLIN SEWI.\aub
 
 message_161:
-      text: You used the \c[4]JUNKYARD KEY\c[0].
+      # text: You used the \c[4]JUNKYARD KEY\c[0].
+      text: sina kepeken \c[4]IJO KEN PI MA JAKI\c[0].
