@@ -366,16 +366,16 @@ Window_Base:
   processDrawInputIconOffset: [0,0] # This adds an offset when the escape character \DII[x] is used for drawing inputs images. The format is [x,y]
 
 Window_OmoMenuHelp:
-  refresh_contents_fontsize: 28 # OMORI BASE line 3868
-  refresh_description_fontsize: 20 # OMORI BASE line 3870
+  refresh_contents_fontsize: 34 # OMORI BASE line 3868
+  refresh_description_fontsize: 26 # OMORI BASE line 3870
   refresh_position: [6,28] # OMORI BASE line 3872
 
 Window_OmoWindowIndexCursor:
-  refresh_contents_fontsize: 23 # OMORI BASE line 3969
+  refresh_contents_fontsize: 30 # OMORI BASE line 3969
   refresh_draw_text_position: [0, -13] # OMORI BASE line 3976
 
 Window_NameBox:
-  refresh_draw_text_position: ["padding", -14] # OMORI BASE line 4634
+  refresh_draw_text_position: ["padding", -8] # OMORI BASE line 4634
   standardFontSize: "$gameSystem.getMessageFontSize()" # YEP MESSAGE CORE line 1094
 
 Window_OmoriBattleActorStatus:
@@ -390,7 +390,7 @@ Window_OmoMenuOptionsCategory:
   standardFontSize: 24 # OMORI MAIN MENU SCENE OPTIONS line 698
 
 Window_MenuCommand:
-  standardFontSize: 24 # OMORI MAIN MENU line 259
+  standardFontSize: 36 # OMORI MAIN MENU line 259
 
 Window_Gold:
   drawCurrencyValue_position: ["x", 0] # OMORI MAIN MENU line 334
@@ -399,6 +399,8 @@ Window_OmoMainMenuActorStatus:
   refresh_contents_fontsize: 25 # OMORI MAIN MENU line 604
   refresh_drawText_position: [12, -7] # OMORI MAIN MENU line 606
   refresh_contents_fontsize2: 20 # OMORI MAIN MENU line 607
+  refresh_contents_fontsize_level: 26 #OMORI MAIN MENU line 619
+  refresh_drawTextLevel_position: [12,16]
   refresh_drawTextHP_position: [12,42] # OMORI MAIN MENU line 626
   refresh_drawTextMP_position: [12,70] # OMORI MAIN MENU line 631
 
@@ -421,11 +423,14 @@ Window_OmoTitleScreenBox:
   refresh_drawText_position: [0, -13] # OMORI TITLE SCREEN line 1140
 
 Window_OmoMenuItemCategory:
-  standardFontSize: 20 # OMORI MAIN MENU SCENE ITEM line 620
+  standardFontSize: 32 # OMORI MAIN MENU SCENE ITEM line 620
 
 Window_OmoMenuItemList:
   drawItem_contents_fontsize: 22 # OMORI MAIN MENU SCENE ITEM line 794
   drawItem_drawText_position: ["rect.x + rect.width - 18", "rect.y"] # OMORI MAIN MENU SCENE ITEM line 800
+  
+Window_OmoWeaponCharm:
+  weapon_charm_fontsize: 28
 
 Window_OmoMenuItemConfirmation:
   standardFontSize: 24 # OMORI MAIN MENU SCENE ITEM line 832
@@ -435,7 +440,7 @@ Window_OmoMenuItemTrashPromptWindow:
   itemRectForText_rectx: "this.textPadding() + 35" # OMORI MAIN MENU SCENE ITEM line 925
 
 Window_ChoiceList:
-  standardFontSize: 28 # OMORI BASE LINE 4665
+  standardFontSize: 32 # OMORI BASE LINE 4665
 
 Window_OmoMenuActorSkillEquip:
   skillsFontSize: 24 # OMORI MAIN MENU SCENE SKILL LINE 701

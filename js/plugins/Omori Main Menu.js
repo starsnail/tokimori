@@ -615,8 +615,16 @@ Window_OmoMainMenuActorStatus.prototype.refresh = function() {
       // Set Rate
       let rate = currentExp / nextExp;
       rate = Math.min(rate, 1);
+      
+      // -- Changed to add more control over how the menus are drawn
+      //	These control the font-size and position of the text inside the level bar
       this.contents.gradientFillRect(2, 30, 151 * rate, 15, 'rgba(51, 0, 196, 1)', 'rgba(254, 145, 246, 1)');
-      this.drawText("%1 %2".format(LanguageManager.getMessageData("XX_BLUE.Omori_Mainmenu").lvl, actor._level), 12, 18, this.contents.width);
+	  this.contents.fontSize = LanguageManager.getMessageData("XX_BLUE.Window_OmoMainMenuActorStatus").refresh_contents_fontsize_level;
+	  let level_position = LanguageManager.getMessageData("XX_BLUE.Window_OmoMainMenuActorStatus").refresh_drawTextLevel_position;
+      this.drawText("%1 %2".format(LanguageManager.getMessageData("XX_BLUE.Omori_Mainmenu").lvl, actor._level), level_position[0], level_position[1], this.contents.width);
+	  this.contents.fontSize = LanguageManager.getMessageData("XX_BLUE.Window_OmoMainMenuActorStatus").refresh_contents_fontsize2;
+	  // --
+	  
     };
     // Get Bar Bitmap
     var bitmap = ImageManager.loadSystem('newtagmenud');

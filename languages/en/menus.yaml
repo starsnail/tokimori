@@ -5,116 +5,169 @@
 plugins:
   mainMenu:
     commands:
-      - ['???', 'ANU', 'MOLI']
+    # ['seme', 'anu', 'moli']
+      - ['㉙', '㈇', '㈷']
       - EQUIP
       - POCKET
       - SKILLS
       - OPTIONS
     status:
-      tag: O ANU E JAN SEME?
-      select: O ANU E JAN SEME?
+      # o anu e jan seme
+      tag: ㉄㈇㈉㈑㉙
+      # o anu e jan seme
+      select: ㉄㈇㈉㈑㉙
 
   equipMenu:
-    weapon: ILO UTALA
-    charm: IJO NASA
-    replace: SINA WILE E ANTE SEME?
+    # ilo utala
+    weapon: ㈎㉱
+    # ijo nasa
+    charm: ㈌㈾
+    # sina wile e ante seme
+    replace: ㉞㉷㈉㈆㉙
 
   skillMenu:
-    skills: KEN SONA
-    replace: SINA WILE E ANTE SEME?
-    DoWhat: O PALI SEME?
-    use: PALI
-    swap: ANU
-    useon: O PALI E JAN SEME?
+    # ken sona
+    skills: ㈘㉡
+    # sina wile e ante seme
+    replace: ㉞㉷㈉㈆㉙
+    # o pali seme
+    DoWhat: ㉄㉉㉙
+    # pali
+    use: ㉉
+    # anu
+    swap: ㈇
+    # o pali e jan seme
+    useon: ㉄㉉㈉㈑㉙
 
   pocketMenu:
-    consumables: IJO PI PALI WAN
-    toys: IJO MUSI
-    important: IJO LAWA
-    trash: JAKI
-    use: PALI
-    sure: SINA WILE PALI ALA PALI E NI?
-    useon: O PALI NI E JAN SEME?
+  	# ijo pi pali wan
+    consumables: ㈌㉍㉉㉳
+    # ijo musi
+    toys: ㈌㈻
+    # ijo lawa
+    important: ㈌㈤
+    # jaki
+    trash: ㈐
+    # pali
+    use: ㉉
+    # sina wile pali ala pali e ni
+    sure: ㉞㉷㉉㈂㉉㈉㉁
+    # o pali ni e jan seme
+    useon: ㉄㉉㉁㈉㈑㉙
 
   optionsMenu:
     general:
       screenResolution:
-        text: LEN LUPA LUKIN SULI
+        # ken lupa lukin suli
+        text: ㈥㈯㈮㉣
         options: ['X1', 'X2', X3, X4]
-        help: sina wile e len lupa lukin sina li lili anu suli?
+        # sina wile e len lupa lukin sina li lili anu suli
+        help: ㉞㉷㈉㈥㈯㈮㉞㈧㈨㈇㉣
         spacing: 80
 
       fullScreen:
-        text: LEN LUPA LUKIN ALE
-        options: ['LON', 'ALA']
-        help: musi li len ale e len lupa lukin.
+      	# len lupa lukin ale
+        text: ㈥㈯㈮㈄
+        # ['LON', 'ALA']
+        options: ['㈬', '㈂']
+        # musi li len ale e len lupa lukin
+        help: ㈻㈧㈥㈄㈉㈥㈯㈮
         boolIndex: true
         spacing: 80
 
       commandRemember:
-        text: SONA PI UTALA
-        options: ['LON', 'ALA']
-        help: mi sona e anu utala pi tenpo weka
+        # sona pi utala
+        text: ㉡㉍㉱
+        # ['LON', 'ALA']
+        options: ['㈬', '㈂']
+        # mi sona e anu utala pi[tenpo weka]
+        help: ㈴㉡㈉㈇㉱㑒㉫㉶
         boolIndex: true
         spacing: 80
 
       battleAnimations:
-        text: SITELEN TAWA UTALA
-        options: ['LON', 'ALA']
+        # sitelen tawa utala
+        text: ㉠㉩㉱
+        # ['LON', 'ALA']
+        options: ['㈬', '㈂']
         help: HELP TEXT
         boolIndex: true
         spacing: 80
 
       battleAnimationSpeed:
-        text: SITELEN TAWA UTALA LI TAWA KEPEKEN TENPO SEME?
-        options: ['MESO', 'LILI', 'LILI LILI', 'LILI LILI LILI']
+        # sitelen tawa utala li tawa kepeken tenpo seme
+        text: ㉠㉩㉱㈧㉩㈙㉫㉙
+        # ['meso', 'lili', 'lili lili', 'lili lili lili']
+        options: ['㊂', '㈨', '㈨㈨', '㈨㈨㈨']
         help: HELP TEXT
         spacing: 130
 
       battleLogSpeed:
-        text: LIPU PI UTALA
-        options: ['MESO', 'TAWA PI JO LAWA ALA']
+        # lipu pi utala
+        text: ㈪㉍㉱
+        # ['meso', 'tawa pi jo lawa ala']
+        options: ['㊂', '㉩㉍㈓㈤㈂']
         help: HELP TEXT
         spacing: 130
 
       alwaysDash:
-        text: TAWA JAN 
-        options: ['TAWA KEPEKEN TENPO LILI', 'TAWA KEPEKEN TENPO SULI']
+        # tawa jan
+        text: ㉩㈑ 
+        #['tawa kepeken tenpo lili', 'tawa kepeken tenpo suli]
+        options: ['㉩㈙㉫㈨', '㉩㈙㉫㉣']
         help: HELP TEXT
         boolIndex: true
         spacing: 130
 
     audio:
       bgmVolume:
-        text: KALAMA MUSI PI MONSI LI SULI SEME?
-        help: o ante e suli pi kalama musi pi monsi.
+        # kalama musi pi monsi li suli seme
+        text: ㈕㈻㉍㈸㈧㉣㉙
+        # o ante e suli pi kalama musi pi monsi
+        help: ㉄㈆㈉㉣㉍㈕㈻㉍㈸
 
       bgsVolume:
-        text: KALAMA PI MONSI LI SULI SEME?
-        help: o ante e suli pi kalama pi monsi.
+      	# kalama pi monsi li suli seme
+        text: ㈕㉍㈸㈧㉣㉙
+        # o ante e suli pi kalama pi monsi
+        help: ㉄㈆㈉㉣㉍㈕㉍㈸
 
       meVolume:
-        text: KALAMA MUSI NASA LI SULI SEME?
-        help: o ante e suli pi kalama musi nasa.
-
+        # kalama musi nasa li suli seme
+        text: ㈕㈻㈾㈧㉣㉙
+        # o ante e suli pi[kalama musi nasa]
+        help: ㉄㈆㈉㉣㑓㈕㈻㈾
       seVolume:
-        text: KALAMA NASA LI SULI SEME?
-        help: o ante e suli pi kalama nasa.
+        # kalama nasa li suli seme
+        text: ㈕㈾㈧㉣㉙
+        # o ante e suli pi[kalama nasa]
+        help: ㉄㈆㈉㉣㑒㈕㈾
 
     controls:
-      keyboardHeader: SUPA PI NENA NIMI
-      gamepadHeader: SUPA MUSI
-      pressKeyPrompt: O LUPA E NENA
+      # supa pi[nena nimi]
+      keyboardHeader: ㉥㑒㉀㉂
+      # supa musi
+      gamepadHeader: ㉥㈻
+      # o lupa e nena
+      pressKeyPrompt: ㉄㈯㈉㉀
       resetAll: RESET ALL
-      help: supa li nena la lawa o ante.
+      # supa li nena la lawa o ante
+      help: ㉥㈧㉀㈡㈤㉄㈆
       inputNames:
-        up: SEWI (↑)
-        down: ANPA (↓)
-        left: SOTO (←)
-        right: TEJE (→)
-        ok: LON
-        escape: ALA
-        shift: TAWA KEPEKEN TENPO LILI
+        # sewi
+        up: ㉚ (↑)
+        # anpa
+        down: ㈅ (↓)
+        # soto
+        left: ㊐ (←)
+        # teje
+        right: ㊑ (→)
+        # lon
+        ok: ㈬
+        # ala
+        escape: ㈂
+        # tawa kepeken tenpo lili
+        shift: ㉩㈙㉫㈨
         tag: TAG
         tab: STRAFE
         pageup: LB
@@ -122,5 +175,7 @@ plugins:
 
     system:
       load:
-        text: O ANU E LIPU
-        help: ni li anu e lipu.
+        # o anu e lipu
+        text: ㉄㈇㈉㈪
+        # ni li anu e lipu
+        help: ㉁㈧㈇㈉㈪

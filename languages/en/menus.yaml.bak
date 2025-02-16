@@ -1,0 +1,126 @@
+ # ===========================================
+ # Menu scenes and translations
+ # ===========================================
+
+plugins:
+  mainMenu:
+    commands:
+      - ['???', 'ANU', 'MOLI']
+      - EQUIP
+      - POCKET
+      - SKILLS
+      - OPTIONS
+    status:
+      tag: O ANU E JAN SEME?
+      select: O ANU E JAN SEME?
+
+  equipMenu:
+    weapon: ILO UTALA
+    charm: IJO NASA
+    replace: SINA WILE E ANTE SEME?
+
+  skillMenu:
+    skills: KEN SONA
+    replace: SINA WILE E ANTE SEME?
+    DoWhat: O PALI SEME?
+    use: PALI
+    swap: ANU
+    useon: O PALI E JAN SEME?
+
+  pocketMenu:
+    consumables: IJO PI PALI WAN
+    toys: IJO MUSI
+    important: IJO LAWA
+    trash: JAKI
+    use: PALI
+    sure: SINA WILE PALI ALA PALI E NI?
+    useon: O PALI NI E JAN SEME?
+
+  optionsMenu:
+    general:
+      screenResolution:
+        text: LEN LUPA LUKIN SULI
+        options: ['X1', 'X2', X3, X4]
+        help: sina wile e len lupa lukin sina li lili anu suli?
+        spacing: 80
+
+      fullScreen:
+        text: LEN LUPA LUKIN ALE
+        options: ['LON', 'ALA']
+        help: musi li len ale e len lupa lukin.
+        boolIndex: true
+        spacing: 80
+
+      commandRemember:
+        text: SONA PI UTALA
+        options: ['LON', 'ALA']
+        help: mi sona e anu utala pi tenpo weka
+        boolIndex: true
+        spacing: 80
+
+      battleAnimations:
+        text: SITELEN TAWA UTALA
+        options: ['LON', 'ALA']
+        help: HELP TEXT
+        boolIndex: true
+        spacing: 80
+
+      battleAnimationSpeed:
+        text: SITELEN TAWA UTALA LI TAWA KEPEKEN TENPO SEME?
+        options: ['MESO', 'LILI', 'LILI LILI', 'LILI LILI LILI']
+        help: HELP TEXT
+        spacing: 130
+
+      battleLogSpeed:
+        text: LIPU PI UTALA
+        options: ['MESO', 'TAWA PI JO LAWA ALA']
+        help: HELP TEXT
+        spacing: 130
+
+      alwaysDash:
+        text: TAWA JAN 
+        options: ['TAWA KEPEKEN TENPO LILI', 'TAWA KEPEKEN TENPO SULI']
+        help: HELP TEXT
+        boolIndex: true
+        spacing: 130
+
+    audio:
+      bgmVolume:
+        text: KALAMA MUSI PI MONSI LI SULI SEME?
+        help: o ante e suli pi kalama musi pi monsi.
+
+      bgsVolume:
+        text: KALAMA PI MONSI LI SULI SEME?
+        help: o ante e suli pi kalama pi monsi.
+
+      meVolume:
+        text: KALAMA MUSI NASA LI SULI SEME?
+        help: o ante e suli pi kalama musi nasa.
+
+      seVolume:
+        text: KALAMA NASA LI SULI SEME?
+        help: o ante e suli pi kalama nasa.
+
+    controls:
+      keyboardHeader: SUPA PI NENA NIMI
+      gamepadHeader: SUPA MUSI
+      pressKeyPrompt: O LUPA E NENA
+      resetAll: RESET ALL
+      help: supa li nena la lawa o ante.
+      inputNames:
+        up: SEWI (↑)
+        down: ANPA (↓)
+        left: SOTO (←)
+        right: TEJE (→)
+        ok: LON
+        escape: ALA
+        shift: TAWA KEPEKEN TENPO LILI
+        tag: TAG
+        tab: STRAFE
+        pageup: LB
+        pagedown: RB
+
+    system:
+      load:
+        text: O ANU E LIPU
+        help: ni li anu e lipu.

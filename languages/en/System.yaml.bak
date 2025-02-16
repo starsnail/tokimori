@@ -11,8 +11,8 @@ terms:
         2: "㉛"
         3: "㉛"
         # wawa telo
-        4: "㉵㉪"
-        5: "㉵㉪"
+        4: "WAWA TELO"
+        5: "WAWA TELO"
         6: "TLO"
         7: "TLO"
         8: "SNA"
@@ -101,22 +101,15 @@ terms:
         victory: "jan %1 li sewi!" #emerged on top
 
     param:
-    	# sijelo
-        0: "㉛"
-        # wawa telo
-        1: "㉵㉪"
-        # utala
-        2: "㉱"
-        # wawa awen
-        3: "㉵㈈"
+        0: "Sijelo"
+        1: "Wawa telo"
+        2: "Utala"
+        3: "Wawa awen"
         4: "M.Attack"
         5: "M.Defense"
-        # wawa tawa
-        6: "㉵㉩"
-        # ken utala moli
-        7: "㈘㉱㈷"
-        # wawa ken
-        8: "㉵㈘"
+        6: "Wawa tawa"
+        7: "Ken utala moli"
+        8: "Wawa ken"
         9: "Evasion"
 
 # Table of Keys for Input
@@ -516,72 +509,51 @@ InputNames:
 plugins:
   mainMenu:
     commands:
-      # ['seme', 'anu', 'STAB']
-      - ['㉙', '㈇', 'STAB']
-      # o pali
-      - ㉄㉉
-      # poki
-      - ㉓
-      # ken sona
-      - ㈘㉡
-      # ken
-      - ㈘
+      - ['???', 'ANU', 'STAB']
+      - O PALI
+      - POKI
+      - KEN SONA
+      - KEN
     status:
-      # anu e jan seme
-      tag: ㈇㈉㈑㉙
-      select: ㈇㈉㈑㉙
-      # moli e jan seme
-      stab: ㈷㈉㈑㉙
+      tag: ANU E JAN SEME?
+      select: ANU E JAN SEME?
+      stab: MOLI E JAN SEME?
 
   equipMenu:
-    # ilo utala
-    weapon: ㈎㉱
-    # ijo nasa
-    charm: ㈌㈾
-    # anu e seme
-    replace: ㈇㈉㉙
+    weapon: ILO UTALA
+    charm: IJO NASA
+    replace: ANU E SEME?
 
   skillMenu:
-    # ken sona
-    skills: ㈘㉡
-    # anu e seme
-    replace: ㈇㈉㉙
+    skills: KEN SONA
+    replace: ANU E SEME?
 
   itemMenu:
     categories:
-      # moku
-      - ㈶
-      - ㈌㈻
-      - ㈌㈤
+      - MOKU
+      - IJO MUSI
+      - IJO LAWA
     itemUse:
       commands:
-        # [pali, open, o moku e telo, o moku]
-        - [㉉, ㉇, ㉄㈶㈉㉪, ㉄㈶]
-        # jaki
-        - ㈐
+        - [PALI, OPEN, O MOKU E TELO, O MOKU]
+        - JAKI
 
       confirm:
         single:
-          # o pali e jan seme
-          - ㉄㉉㈉㈑㉙
+          - O PALI E JAN SEME?
           -
-          # o pana tawa jan seme
-          - ㉄㉌㉩㈑㉙
-          - ㉄㉌㉩㈑㉙
+          - O PANA TAWA JAN SEME?
+          - O PANA TAWA JAN SEME?
 
         all:
-          # o pali ala pali e jan ale
-          - ㉄㉉㈂㉉㈉㈑㈄
+          - O PALI ALA PALI E JAN ALE?
           -
-          # o pana tawa jan seme
-          - ㉄㉌㉩㈑㉙
-          - ㉄㉌㉩㈑㉙
+          - O PANA TAWA JAN SEME?
+          - O PANA TAWA JAN SEME?
 
     itemTrash:
-        # sina wile pali ala pali e ni
-        text: '㉞㉷㉉㈂㉉㈉㉁'
-        # [lon, ala]
-        commands: [㈬,㈂]
+        text: 'SINA WILE PALI ALA PALI E NI?'
+        commands: [LON, ALA]
 
 
 
@@ -589,10 +561,8 @@ plugins:
     alertMessages:
       restoreGeneral: Default configuration has been restored. Do you want to recover global.rpgsave?
     buttonHints:
-      #lon
-      confirm: ㈬
-      # ala
-      cancel: ㈂
+      confirm: LON
+      cancel: ALA
     inputWarning:
       keyboardMessage: "You can't edit KEYBOARD inputs using your GAMEPAD!"
       gamepadMessage: "You can't edit GAMEPAD inputs using your KEYBOARD!"

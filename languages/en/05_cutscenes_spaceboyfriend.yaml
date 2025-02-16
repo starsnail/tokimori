@@ -126,7 +126,7 @@ message_18:
 message_51:
       # text: Cough...\! Cough, cough...\sbf
       # ken la the asterisks fuck this up. sorry if so.
-      text: *kk*...\! *kk*, *kk*...\sbf
+      text: \*kk\*...\! \*kk\*, \*kk\*...\sbf
 
 message_52:
       faceset: MainCharacters_DreamWorld
@@ -166,7 +166,7 @@ message_57:
 
 message_58:
       # text: \}\quake[1]Cough...\! Ughhh...\! Cough, cough...\! Sigh...\!<br>My... Precious...\! SWEETHEART...\sbf\quake[0]
-      text: \}\quake[1]*kk*...\! aa...\! *kk*, *kk*...\! aaa...\!<br>jan... OLIN SUWI...\! mi...\sbf\quake[0]
+      text: \}\quake[1]\*kk\*...\! aa...\! \*kk\*, \*kk\*...\! aaa...\!<br>jan... OLIN SUWI...\! mi...\sbf\quake[0]
 
 message_59:
       faceset: MainCharacters_DreamWorld
@@ -176,7 +176,7 @@ message_59:
 
 message_60:
       # text: \}\quake[1]Cough, cough...\! Cough...\! Oh, my SWEETHEART...\!<br>Where have you run off to now?\sbf\quake[0]
-      text: \}\quake[1]*kk*, *kk*...\! *kk*...\! a, jan OLIN SUWI mi o...\!<br>sina weka... sina lon seme?\sbf\quake[0]
+      text: \}\quake[1]\*kk\*, \*kk\*...\! \*kk\*...\! a, jan OLIN SUWI mi o...\!<br>sina weka... sina lon seme?\sbf\quake[0]
 
 #SPACE PIRATE GUY walks in and walks to SPACE BOYFRIEND.
 
@@ -225,7 +225,7 @@ message_68:
 message_69:
       # text: The only way to snap him out of it is by playing his \c[4]SPECIAL MIXTAPE\c[0].\! There's only one in the universe like it.\spg
       # ken la the colon fucks it up. sorry if so!
-      text: sina wile pini ni la, nasin taso li ni: o kepeken \c[4]POKI KALAMA PONA\c[0] ona.\! poki kalama ni taso li suli tawa ona.
+      text: sina wile pini ni la, nasin taso li ni:\ o kepeken \c[4]POKI KALAMA PONA\c[0] ona.\! poki kalama ni taso li suli tawa ona.
 
 message_70:
       faceset: MainCharacters_DreamWorld
@@ -255,7 +255,7 @@ message_74:
       faceset: MainCharacters_DreamWorld
       faceindex: 10
       # text: Wait! Where are you going? We should help him out!\!<br>You should know that it really sucks to lose something important to you.\aub
-      text: o pini! sina tawa seme? mi ale o pona e jan!\!<br>sina sona e ni: ijo suli li kama weka la, sina pilin ike.
+      text: o pini! sina tawa seme? mi ale o pona e jan!\!<br>sina sona e ni:\ ijo suli li kama weka la, sina pilin ike.
 
 message_75:
       faceset: MainCharacters_DreamWorld
@@ -281,7 +281,7 @@ message_78:
 
 message_79:
       # text: \Com[2]Cough, cough!\sbf
-      text: \Com[2]*kk*, *kk*!\sbf
+      text: \Com[2]\*kk\*, \*kk\*!\sbf
 
 #Everyone turns to the bed
 
@@ -291,7 +291,7 @@ message_80:
 
 message_81:
       # text: \quake[1]\}Cough...\! My sweet...\! jelly-filled... donut...\sbf\quake[0]
-      text: \quake[1]\}*kk*...\! pan suwi...\! sike... mi o...\sbf\quake[0]
+      text: \quake[1]\}\*kk\*...\! pan suwi...\! sike... mi o...\sbf\quake[0]
 
 #AUBREY looks at Space Boyfriend.
 
@@ -335,7 +335,7 @@ message_88:
 
 message_89:
       # text: I hope the CAPTAIN feels better soon...\spg
-      text: mi wile e ni: jan LAWA SEWI li pilin pona...\spg
+      text: mi wile e ni:\ jan LAWA SEWI li pilin pona...\spg
 
 # =========================================================================================
 # Cutscene: Missing Pluto
@@ -348,7 +348,7 @@ message_110:
       
 message_111:
       # text: I hope the CAPTAIN won't be too mad when we tell him his favorite planet is missing.\! You know how he gets when he's angry.\spd
-      text: mi wile e ni: mi toki e weka pi mun PUTO la, jan LAWA SEWI li pilin utala ala.\! sina sona e pilin utala ona.\spd
+      text: mi wile e ni:\ mi toki e weka pi mun PUTO la, jan LAWA SEWI li pilin utala ala.\! sina sona e pilin utala ona.\spd
 
 message_112:
       # text: Buddy, you're not supposed to call him CAPTAIN anymore.\!<br>You have to call him SPACE BOYFRIEND, remember?\spb
@@ -376,7 +376,7 @@ message_117:
 
 message_118:
       # text: I'm sure the CAPTAIN will come to his senses one day and we'll all fly again.\! We just have to believe in him!\spb
-      text: mi sona e ni: tenpo kama la, jan LAWA SEWI li kama nasa ala. mi ale li ken waso.\! o pilin pona tawa ona!\spb
+      text: mi sona e ni:\ tenpo kama la, jan LAWA SEWI li kama nasa ala. mi ale li ken waso.\! o pilin pona tawa ona!\spb
 message_119:
       # text: Sigh...\! Thanks, dude.\! You're always there when I need you.\spd
       text: a...\! sina pona.\! tenpo ale la, mi wile e ni la, sina lon.\spd
@@ -401,7 +401,7 @@ message_131:
 
 message_150:
       # text: \quake[1]\}Cough...\! cough...\sbf\quake[0]
-      text: \quake[1]\}*kk*...\! *kk*...\sbf\quake[0]
+      text: \quake[1]\}\*kk\*...\! \*kk\*...\sbf\quake[0]
 
 message_160:
       faceset: MainCharacters_DreamWorld

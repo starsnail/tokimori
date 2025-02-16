@@ -23,7 +23,11 @@
     "name": "㈑㐥㉇㉽㉄㈢㈏㐓",
     "nickname": "",
     "note": "<BattleStatusFaceName: 01_OMORI_BATTLE>\n<BattleStatusIndex: 2>\n\n<BattleCommandsList>\nskill: 21\nskillList\ndefend\nitems\n</BattleCommandsList>\n",
-    "profile": ""
+    "profile": "",
+    "originalName": "OMORI",
+    "nameLasina": "jan[open monsuta o lape insa]",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 2,
@@ -63,7 +67,11 @@
     "name": "㈑㐥㈆㉎㈉㉷㈏㐓",
     "nickname": "",
     "note": "<BattleStatusFaceName: 02_AUBREY_BATTLE>\n<BattleStatusIndex: 0>\n\n<BattleCommandsList>\nskill: 64\nskillList\ndefend\nitems\n</BattleCommandsList>\n\n<Hit Counter>",
-    "profile": ""
+    "profile": "",
+    "originalName": "AUBREY",
+    "nameLasina": "jan[ante pilin e wile insa]",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 3,
@@ -103,7 +111,11 @@
     "name": "㈑㐤㈘㊉㈮㈏㐓",
     "nickname": "",
     "note": "<BattleStatusFaceName: 03_KEL_BATTLE>\n<BattleStatusIndex: 3>\n\n<BattleCommandsList>\nskill: 103\nskillList\ndefend\nitems\n</BattleCommandsList>\n\n\n<Evade Counter>",
-    "profile": ""
+    "profile": "",
+    "originalName": "KEL",
+    "nameLasina": "jan[ken · lukin insa]",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 4,
@@ -143,7 +155,11 @@
     "name": "㈑㐢㉵㊊㐓",
     "nickname": "",
     "note": "<BattleStatusFaceName: 04_HERO_BATTLE>\n<BattleStatusIndex: 1>\n\n<BattleCommandsList>\nskill: 143\nskillList\ndefend\nitems\n</BattleCommandsList>\n\n",
-    "profile": ""
+    "profile": "",
+    "originalName": "HERO",
+    "nameLasina": "jan[wawa :]",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 5,
@@ -268,7 +284,11 @@
     "name": "PLAYER",
     "nickname": "",
     "note": "<MenuStatusFaceName: 01_PLAYER_MENU>\n<BattleStatusFaceName: 01_FA_OMORI_BATTLE>\n<FearBattleFaceIndex: 8>\n<BattleStatusIndex: 2>\n\n<BattleCommandsList>\nskill: 201\nskillList\ndefend\nitems\n</BattleCommandsList>\n\n",
-    "profile": ""
+    "profile": "",
+    "originalName": "PLAYER",
+    "nameLasina": "",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 9,
@@ -314,7 +334,11 @@
     "name": "㈑㐥㈆㉎㈉㉷㈏㐓",
     "nickname": "",
     "note": "<MenuStatusFaceName: 02_AUBREY_MENU>\n<BattleStatusFaceName: 02_FA_AUBREY_BATTLE>\n<BattleStatusIndex: 0>\n\n<BattleCommandsList>\nskill: 205\nskillList\ndefend\nitems\n</BattleCommandsList>\n\n<Hit Counter>",
-    "profile": ""
+    "profile": "",
+    "originalName": "AUBREY",
+    "nameLasina": "jan[ante pilin e wile insa]",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 10,
@@ -360,7 +384,11 @@
     "name": "㈑㐤㈘㊉㈮㈏㐓",
     "nickname": "",
     "note": "<MenuStatusFaceName: 03_KEL_MENU>\n<BattleStatusFaceName: 03_FA_KEL_BATTLE>\n<BattleStatusIndex: 3>\n<BattleCommandsList>\nskill: 204\nskillList\ndefend\nitems\n</BattleCommandsList>\n\n\n<Evade Counter>",
-    "profile": ""
+    "profile": "",
+    "originalName": "KEL",
+    "nameLasina": "jan[ken · lukin insa]",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 11,
@@ -410,7 +438,11 @@
     "name": "㈑㐢㉵㊊㐓",
     "nickname": "",
     "note": "<MenuStatusFaceName: 04_HERO_MENU>\n<BattleStatusFaceName: 04_FA_HERO_BATTLE>\n<BattleStatusIndex: 1>\n<BattleCommandsList>\nskill: 206\nskillList\ndefend\nitems\n</BattleCommandsList>\n\n",
-    "profile": ""
+    "profile": "",
+    "originalName": "HERO",
+    "nameLasina": "jan[wawa :]",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 12,
@@ -479,7 +511,11 @@
     "name": "backup:",
     "nickname": "",
     "note": "backup:\n<battle command: use_skill 1 />\n<battle command: item />\n<battle command: skill_type 1 />\n<battle command: use_skill 6 />",
-    "profile": ""
+    "profile": "",
+    "originalName": "backup:",
+    "nameLasina": "",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 15,
@@ -525,7 +561,11 @@
     "name": "BERLY",
     "nickname": "",
     "note": "",
-    "profile": ""
+    "profile": "",
+    "originalName": "BERLY",
+    "nameLasina": "",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 17,
@@ -2388,7 +2428,11 @@
     "name": "bird 1",
     "nickname": "",
     "note": "<no_battle:1>\n<no_menu:1>",
-    "profile": ""
+    "profile": "",
+    "originalName": "bird 1",
+    "nameLasina": "",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 98,
@@ -2411,7 +2455,11 @@
     "name": "bird 2",
     "nickname": "",
     "note": "<no_battle:1>\n<no_menu:1>",
-    "profile": ""
+    "profile": "",
+    "originalName": "bird 2",
+    "nameLasina": "",
+    "descriptionLasina": "",
+    "parsed": true
   },
   {
     "id": 99,
@@ -2434,6 +2482,10 @@
     "name": "bird 3",
     "nickname": "",
     "note": "<no_battle:1>\n<no_menu:1>",
-    "profile": ""
+    "profile": "",
+    "originalName": "bird 3",
+    "nameLasina": "",
+    "descriptionLasina": "",
+    "parsed": true
   }
 ]

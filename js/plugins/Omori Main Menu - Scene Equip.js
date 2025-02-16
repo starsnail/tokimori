@@ -712,8 +712,17 @@ Window_OmoMenuActorEquip.prototype.refresh = function() {
   this.contents.fillRect(4, 28, this.width - 8, 2, 'rgba(255, 255, 255, 1)');
   this.contents.fillRect(4, 65, this.width - 8, 2, 'rgba(255, 255, 255, 1)'); 
   this.contents.fillRect(4, 90, this.width - 8, 2, 'rgba(255, 255, 255, 1)'); 
+  
+  // -- Controls the font-size of the "WEAPON" and "CHARM" text in the menu
+  this.contents.fontSize = LanguageManager.getMessageData("XX_BLUE.Window_OmoWeaponCharm").weapon_charm_fontsize;
+  // --
+  
   this.drawText(LanguageManager.getPluginText('equipMenu', 'weapon'), 0, -4, this.width, 'center');
   this.drawText(LanguageManager.getPluginText('equipMenu', 'charm'), 0, 58, this.width, 'center');
+  
+  // -- Reset font-size just in case
+  this.resetFontSettings();
+  // --
 };
 //=============================================================================
 // * Draw Item

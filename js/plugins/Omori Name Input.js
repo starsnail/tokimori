@@ -365,7 +365,7 @@ Window_OmoriNameInputName.prototype.initialize = function(max) {
 // * Settings
 //=============================================================================
 Window_OmoriNameInputName.prototype.standardPadding = function() { return 4; };
-Window_OmoriNameInputName.prototype.windowWidth = function() { return this._maxCharacters * 26; };
+Window_OmoriNameInputName.prototype.windowWidth = function() { return (this._maxCharacters * 26) + 35; };
 Window_OmoriNameInputName.prototype.windowHeight = function() { return 80; };
 //=============================================================================
 // * Openness Type (0: Vertical, 1: Horizontal, 2: All)
@@ -384,17 +384,68 @@ Window_OmoriNameInputName.prototype.refresh = function() {
   this.refreshText();
 };
 //=============================================================================
+// * Custom sitelen pona functions
+//=============================================================================
+function getCartouche(length) {
+	var cartoucheVariants = [
+	"㐡",
+	"㐢",
+	"㐣",
+	"㐤",
+	"㐥",
+	"㐦",
+	"㐧",
+	"㐨",
+	"㐩",
+	"㐪",
+	"㐫"
+	];
+	return cartoucheVariants[Math.max(length - 1, 0)]
+}
+function getNameLength(name){
+  var length = 0;
+  for(var i = 0; i < name.length; i++) {
+    if(name[i] && name[i] != " ") {
+	  length = i + 1;
+	}
+  }
+  return length;
+}
+
+function fixName(name) {
+  var fixedName = "㈑";
+  fixedName += getCartouche(name.length);
+  fixedName += name;
+  fixedName += "㐓"; //cartouche end spacing
+  return fixedName;
+}
+
+Window_OmoriNameInputName.prototype.updateDisplayText = function() {
+  this._displayText = [];
+  this._displayText.push("㈑");
+  this._displayText.push(getCartouche(getNameLength(this._text)));
+  this._text.forEach(letter => {
+    this._displayText.push(letter);
+  });
+  this._displayText.push("㐓"); //cartouche end spacing
+}
+//=============================================================================
 // * Refresh
 //=============================================================================
 Window_OmoriNameInputName.prototype.clearName = function(name) {
   // Initialize Array
-  this._text = [];
+  this._displayText = []; //contains name with cartouche
+  this._text = []; //contains name without cartouche
   // Get Letters
+  console.log("TESTING");
+  
   var letters = name.split("");
+  console.log(name);
+  console.log(letters);
   // Go Through Max Characters
   for (var i = 0; i < this._maxCharacters; i++) {
     // Get Letter
-    var letter = letters[i];
+	var letter = name[i];
     // Add Letter
     this._text.push(letter ? letter : " ");
   };
@@ -411,7 +462,9 @@ Window_OmoriNameInputName.prototype.name = function() { return this._text.join("
 // * Add Letter
 //=============================================================================
 Window_OmoriNameInputName.prototype.add = function(character) {
+  //if(character == " ") return false; // 
   if (this._textIndex < this._maxCharacters) {
+	
     this._text[this._textIndex] = character;
     this._textIndex = Math.min(this._textIndex + 1, this._maxCharacters-1)
     this.refreshText()
@@ -424,6 +477,9 @@ Window_OmoriNameInputName.prototype.add = function(character) {
 //=============================================================================
 Window_OmoriNameInputName.prototype.back = function() {
   if (this._textIndex > -1) {
+	console.log("TEXTINDEX: " + this._textIndex);
+	console.log(this._text);
+	console.log(this._text[this._textIndex]);
     this._text[this._textIndex] = '';
     this._textIndex = Math.max(this._textIndex - 1, 0);
     this.refreshText();
@@ -435,22 +491,32 @@ Window_OmoriNameInputName.prototype.back = function() {
 // * Refresh Text
 //=============================================================================
 Window_OmoriNameInputName.prototype.refreshText = function() {
+  var underscoreOffset = 25;
+  console.log(this._text);
+  // Add cartouche to text
+  this.updateDisplayText();
   // Clear Rect
   this.contents.clearRect(0, 34, this.contents.width, this.contents.height - 34);
   this.contents.fontSize = 28
   // Space width
   var width = 20;
+  //draw head noun and cartouche
+  var namePrefix = "㈑";
+  namePrefix += getCartouche(getNameLength(this._text));
+  this.contents.drawText(namePrefix, 2, 34, 300, this.contents.fontSize, 'left');
   // Go Through Text
   for (var i = 0; i < this._text.length; i++) {
     // Get Letter
     var letter = this._text[i];
-    var x = 6 + (i * (width + 3));
+    var x = 29 + (i * (width + 3));
+    var x = 29 + (i * (width + 3));
     var y = 34
     this.contents.drawText(letter, x, y, width, this.contents.fontSize, 'center');
     this.contents.paintOpacity = this._textIndex === i ? 255 : 100;
-    this.contents.fillRect(x, y + this.contents.fontSize + 4, width, 2, 'rgba(255, 255, 255, 1)');
+    this.contents.fillRect(x, y + this.contents.fontSize, width, 2, 'rgba(255, 255, 255, 1)');
     this.contents.paintOpacity = 255;
   };
+    
 };
 
 
@@ -1506,7 +1572,7 @@ class VirtualKeyboard extends Window_Selectable {
       this.dispose()
       this._nameWindow.close()
       if (_TDS_.NameInput.params.nameVariableID > 0) {
-        $gameVariables.setValue(_TDS_.NameInput.params.nameVariableID, entry);
+        $gameVariables.setValue(_TDS_.NameInput.params.nameVariableID, fixName(entry));
       };
     }
     else {
@@ -1553,18 +1619,40 @@ class VirtualKeyboard extends Window_Selectable {
     const character = this.getCharacter();
     if(!!VirtualKeyboard[character]) {
       switch(character) {
-        case "{lock}":
+        case "{lockAnte}":
         case "{tradch}":
         case "{simpch}":
           SoundManager.playOk()
           if(!!this._candidateWindow) {
             this._candidateWindow.clearEntry()
           }
-          this._isCaps = !this._isCaps
-          this._layoutType = !!this._isCaps ? "shift" : "default"
+          //this._isCaps = !this._isCaps
+          //this._layoutType = !!this._isCaps ? "shift" : "default"
+		  this._layoutType = "ante"
           this.determineLayoutData()
           this.refresh()
           break;
+		case "{lockAnte2}":
+		  SoundManager.playOk()
+          if(!!this._candidateWindow) {
+            this._candidateWindow.clearEntry()
+          }
+          this._layoutType = "ante2"
+          this.determineLayoutData()
+          this.refresh()
+          break;
+		case "{lockDefault}":
+		  SoundManager.playOk()
+          if(!!this._candidateWindow) {
+            this._candidateWindow.clearEntry()
+          }
+          this._layoutType = "default"
+          this.determineLayoutData()
+          this.refresh()
+          break;
+		case "{N/A}":
+          SoundManager.playCancel()
+		  break;
         case "{confirm}":
           this.confirmEntry()
           break;
@@ -1670,16 +1758,22 @@ class VirtualKeyboard extends Window_Selectable {
 
 VirtualKeyboard.EN = {
   default: [
-      "` 1 2 3 4 5 6 7 8 9 0 - = {bksp}",
-      "q w e r t y u i o p [ ] \\",
-      "{lock} a s d f g h j k l ; '",
-      "z x c v b n m , . / {confirm} {space}"
+      "㈀ ㈁ ㈂ ㈃ ㈄ ㈅ ㈆ ㈇ ㈈ ㈉ ㈊ {bksp} {lockAnte}",
+      "㈋ ㈌ ㈍ ㈎ ㈏ ㈐ ㈑ ㈒ ㈓ ㈔ ㈕ ㈖ ㈗",
+      "㈘ ㈙ ㈚ ㈛ ㈜ ㈝ ㈞ ㈟ ㈠ ㈡ ㈢ ㈣ ㈤",
+      "㈥ ㈦ ㈧ ㈨ ㈩ ㈪ ㈫ ㈬ ㊉ ㊊ {larrow} {rarrow} {confirm}"
   ],
-  shift: [
-      "~ ! @ # $ % ^ & * ( ) _ + {bksp}",
-      "Q W E R T Y U I O P { } |",
-      '{lock} A S D F G H J K L : "',
-      "Z X C V B N M < > ? {confirm} {space}",
+  ante: [
+      "㈭ ㈮ ㈯ ㈰ ㈱ ㈲ ㈳ ㈴ ㈵ ㈶ ㈷ ㈸ ㈹ {bksp} {lockAnte2}",
+      "㈺ ㈻ ㈼ ㈽ ㈾ ㈿ ㉀ ㉁ ㉂ ㉃ ㉄ ㉅ ㉆ ㉇ ㉈",
+      "㉉ ㉊ ㉋ ㉌ ㉍ ㉎ ㉏ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘",
+      "㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㉠ ㉡ ㉢ ㊉ ㊊ {larrow} {rarrow} {confirm}",
+  ],
+  ante2: [
+      "㉣ ㉤ ㉥ ㉦ ㉧ ㉨ ㉩ ㉪ ㉫ ㉬ ㉭ ㉮ ㉯ {bksp} {lockDefault}",
+      "㉰ ㉱ ㉲ ㉳ ㉴ ㉵ ㉶ ㉷",
+      "㉸ ㉹ ㉺ ㉻ ㉼ ㉽ ㉾ ㉿ ㊀ ㊁ ㊂ ㊄ ㊅ ㊆ ㊈",
+      "{space} {space} {space} {space} {space} {space} {space} {space} {space} {space} {space} ㊉ ㊊ {larrow} {rarrow} {confirm}",
   ]
 }
 VirtualKeyboard.JP = {
@@ -1728,7 +1822,10 @@ VirtualKeyboard.CH = {
 
 // UNICODES 
 //VirtualKeyboard["{shift}"] = "\u21e7"
-VirtualKeyboard["{lock}"] = "\u21eA"
+VirtualKeyboard["{lockAnte}"] = "\u21eA"
+VirtualKeyboard["{lockAnte}"] = "\u21eA"
+VirtualKeyboard["{lockDefault}"] = "\u21eA"
+VirtualKeyboard["{N/A}"] = " "
 VirtualKeyboard["{confirm}"] = "OK"//"\u23ce"
 VirtualKeyboard["{space}"] = " "
 VirtualKeyboard["{bksp}"] = "\u232b"

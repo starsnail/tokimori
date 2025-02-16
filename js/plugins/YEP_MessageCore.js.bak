@@ -1083,9 +1083,7 @@ Window_NameBox.prototype.calcNormalCharacter = function(textState) {
 };
 
 Window_NameBox.prototype.windowHeight = function() {
-	// To fit the larger text in the name box.
-	// Another option is reducing the font size for the name box
-    return this.fittingHeight(1.9); 
+    return this.fittingHeight(1);
 };
 
 Window_NameBox.prototype.standardFontFace = function() {
